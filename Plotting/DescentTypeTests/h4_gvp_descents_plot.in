@@ -1,0 +1,6 @@
+1 1 1 0 0 1 0 0
+h4_gvp_steepest.out Steepest
+h4_gvp_rmsprop.out RMSprop
+h4_gvp_adam.out ADAM
+h4_gvp_amsgrad.out AMSGrad
+h4_gvp_random.out Random

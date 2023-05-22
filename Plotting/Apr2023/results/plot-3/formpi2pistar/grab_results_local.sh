@@ -1,0 +1,6 @@
+#!/bin/bash
+
+cp /Volumes/My\ Passport/connie-research/qmc-runs/Feb2023/Savio_SCRATCH_copy/formaldehyde/pi_to_pi_star_state/E-descent/form_pi2pistar_edesc_run001*out .
+cp /Volumes/My\ Passport/connie-research/qmc-runs/Mar2023/Savio_SCRATCH_copy/formaldehyde/pi_to_pi_star_state/GVP-ticktock/form_pi2pistar_gvptt_run001*out .
+cp /Volumes/My\ Passport/connie-research/qmc-runs/Feb2023/Savio_SCRATCH_copy/formaldehyde/pi_to_pi_star_state/GVP-ticktock/form_pi2pistar_gvptt_run003*out .
+cp /Volumes/My\ Passport/connie-research/qmc-runs/Mar2023/Savio_SCRATCH_copy/formaldehyde/pi_to_pi_star_state/GVP-tt-splitsamnple-abs/form_pi2pistar_gvpabs_run001*out .

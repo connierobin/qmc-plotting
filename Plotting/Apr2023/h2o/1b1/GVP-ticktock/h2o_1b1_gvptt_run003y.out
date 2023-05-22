@@ -1,0 +1,2180 @@
+--------------------------------------------------------------------------
+WARNING: No preset parameters were found for the device that Open MPI
+detected:
+
+  Local host:            n0252.savio3
+  Device name:           mlx5_0
+  Device vendor ID:      0x02c9
+  Device vendor part ID: 4123
+
+Default device parameters will be used, which may result in lower
+performance.  You can edit any of the files specified by the
+btl_openib_device_param_files MCA parameter to set values for your
+device.
+
+NOTE: You can turn off this warning by setting the MCA parameter
+      btl_openib_warn_no_device_params_found to 0.
+--------------------------------------------------------------------------
+Rank =    0  Free Memory = 82111 MB
+Rank =    1  Free Memory = 82109 MB
+Rank =    2  Free Memory = 82108 MB
+Rank =    3  Free Memory = 82108 MB
+Rank =    4  Free Memory = 82108 MB
+Rank =    5  Free Memory = 82108 MB
+Rank =    6  Free Memory = 82108 MB
+Rank =    7  Free Memory = 82108 MB
+Rank =    8  Free Memory = 82107 MB
+Rank =    9  Free Memory = 82107 MB
+Rank =   10  Free Memory = 82107 MB
+Rank =   11  Free Memory = 82107 MB
+Rank =   12  Free Memory = 82107 MB
+Rank =   13  Free Memory = 82107 MB
+Rank =   14  Free Memory = 82106 MB
+Rank =   15  Free Memory = 82106 MB
+Rank =   16  Free Memory = 82093 MB
+Rank =   17  Free Memory = 82091 MB
+Rank =   18  Free Memory = 82091 MB
+Rank =   19  Free Memory = 82090 MB
+Rank =   20  Free Memory = 82090 MB
+Rank =   21  Free Memory = 82090 MB
+Rank =   22  Free Memory = 82090 MB
+Rank =   23  Free Memory = 82090 MB
+Rank =   24  Free Memory = 82090 MB
+Rank =   25  Free Memory = 82090 MB
+Rank =   26  Free Memory = 82090 MB
+Rank =   27  Free Memory = 82090 MB
+Rank =   28  Free Memory = 82090 MB
+Rank =   29  Free Memory = 82090 MB
+Rank =   30  Free Memory = 82090 MB
+Rank =   31  Free Memory = 82090 MB
+Rank =   32  Free Memory = 82090 MB
+Rank =   33  Free Memory = 82090 MB
+Rank =   34  Free Memory = 82090 MB
+Rank =   35  Free Memory = 82090 MB
+Rank =   36  Free Memory = 82090 MB
+Rank =   37  Free Memory = 82090 MB
+Rank =   38  Free Memory = 82090 MB
+Rank =   39  Free Memory = 82090 MB
+Rank =   40  Free Memory = 64657 MB
+Rank =   41  Free Memory = 64657 MB
+Rank =   42  Free Memory = 64657 MB
+Rank =   43  Free Memory = 64657 MB
+Rank =   44  Free Memory = 64657 MB
+Rank =   45  Free Memory = 64657 MB
+Rank =   46  Free Memory = 64657 MB
+Rank =   47  Free Memory = 64657 MB
+Rank =   48  Free Memory = 64657 MB
+Rank =   49  Free Memory = 64657 MB
+Rank =   50  Free Memory = 64657 MB
+Rank =   51  Free Memory = 64657 MB
+Rank =   52  Free Memory = 64657 MB
+Rank =   53  Free Memory = 64657 MB
+Rank =   54  Free Memory = 64657 MB
+Rank =   55  Free Memory = 64657 MB
+Rank =   56  Free Memory = 64657 MB
+Rank =   57  Free Memory = 64657 MB
+Rank =   58  Free Memory = 64657 MB
+Rank =   59  Free Memory = 64656 MB
+Rank =   60  Free Memory = 64656 MB
+Rank =   61  Free Memory = 64656 MB
+Rank =   62  Free Memory = 64656 MB
+Rank =   63  Free Memory = 64656 MB
+Rank =   64  Free Memory = 64656 MB
+Rank =   65  Free Memory = 64656 MB
+Rank =   66  Free Memory = 64656 MB
+Rank =   67  Free Memory = 64656 MB
+Rank =   68  Free Memory = 64656 MB
+Rank =   69  Free Memory = 64656 MB
+Rank =   70  Free Memory = 64656 MB
+Rank =   71  Free Memory = 64656 MB
+Rank =   72  Free Memory = 64656 MB
+Rank =   73  Free Memory = 64656 MB
+Rank =   74  Free Memory = 64656 MB
+Rank =   75  Free Memory = 64656 MB
+Rank =   76  Free Memory = 64656 MB
+Rank =   77  Free Memory = 64656 MB
+Rank =   78  Free Memory = 64656 MB
+Rank =   79  Free Memory = 64656 MB
+Rank =   80  Free Memory = 81598 MB
+Rank =   81  Free Memory = 81598 MB
+Rank =   82  Free Memory = 81598 MB
+Rank =   83  Free Memory = 81598 MB
+Rank =   84  Free Memory = 81598 MB
+Rank =   85  Free Memory = 81598 MB
+Rank =   86  Free Memory = 81598 MB
+Rank =   87  Free Memory = 81598 MB
+Rank =   88  Free Memory = 81598 MB
+Rank =   89  Free Memory = 81598 MB
+Rank =   90  Free Memory = 81598 MB
+Rank =   91  Free Memory = 81598 MB
+Rank =   92  Free Memory = 81598 MB
+Rank =   93  Free Memory = 81598 MB
+Rank =   94  Free Memory = 81598 MB
+Rank =   95  Free Memory = 81598 MB
+Rank =   96  Free Memory = 81598 MB
+Rank =   97  Free Memory = 81597 MB
+Rank =   98  Free Memory = 81597 MB
+Rank =   99  Free Memory = 81597 MB
+Rank =  100  Free Memory = 81597 MB
+Rank =  101  Free Memory = 81597 MB
+Rank =  102  Free Memory = 81597 MB
+Rank =  103  Free Memory = 81597 MB
+Rank =  104  Free Memory = 81597 MB
+Rank =  105  Free Memory = 81597 MB
+Rank =  106  Free Memory = 81597 MB
+Rank =  107  Free Memory = 81597 MB
+Rank =  108  Free Memory = 81597 MB
+Rank =  109  Free Memory = 81597 MB
+Rank =  110  Free Memory = 81597 MB
+Rank =  111  Free Memory = 81597 MB
+Rank =  112  Free Memory = 81597 MB
+Rank =  113  Free Memory = 81597 MB
+Rank =  114  Free Memory = 81597 MB
+Rank =  115  Free Memory = 81597 MB
+Rank =  116  Free Memory = 81597 MB
+Rank =  117  Free Memory = 81597 MB
+Rank =  118  Free Memory = 81597 MB
+Rank =  119  Free Memory = 81597 MB
+Rank =  120  Free Memory = 69116 MB
+Rank =  121  Free Memory = 69116 MB
+  Input file(s): opt_h2o_1b1_gvptt_run003y.xml 
+Rank =  122  Free Memory = 69116 MB
+Rank =  123  Free Memory = 69116 MB
+Rank =  124  Free Memory = 69116 MB
+Rank =  125  Free Memory = 69116 MB
+Rank =  126  Free Memory = 69116 MB
+Rank =  127  Free Memory = 69116 MB
+
+=====================================================
+                    QMCPACK 3.7.9
+
+       (c) Copyright 2003-  QMCPACK developers
+
+                    Please cite:
+ J. Kim et al. J. Phys. Cond. Mat. 30 195901 (2018)
+      https://doi.org/10.1088/1361-648X/aab9c3
+
+  Git branch: gvp
+  Last git commit: 39b7557df04c29964085ccccce933740e3918067-dirty
+  Last git commit date: Wed Mar 22 11:37:25 2023 -0700
+  Last git commit subject: deleting more debugging statements
+=====================================================
+  Global options 
+
+  Total number of MPI ranks = 128
+  Number of MPI groups      = 1
+  MPI group ID              = 0
+  Number of ranks in group  = 128
+  MPI ranks per node        = 40
+  OMP 1st level threads     = 1
+  OMP nested threading disabled or only 1 thread on the 2nd level
+
+  Precision used in this calculation, see definitions in the manual:
+  Base precision      = double
+  Full precision      = double
+
+  Structure-of-arrays (SoA) optimization enabled
+
+  Input XML = opt_h2o_1b1_gvptt_run003y.xml
+
+  Project = H2O
+  date    = 2023-04-28 17:47:56 PDT
+  host    = n0193.savio3
+
+ Random Number
+ -------------
+  Offset for the random number seeds based on time: 316
+
+  Range of prime numbers to use as seeds over processors and threads = 2111-3137
+
+
+ Particle Set 
+ ------------
+  Name: e
+  All the species have the same mass 1
+  Particle set size: 8
+
+ Particle Set 
+ ------------
+  Name: ion0
+  All the species have the same mass 1
+  Particle set size: 3
+
+ Wavefunction setup: 
+ ------------------- 
+  Name: psi0
+
+   Jastrow
+   -------
+    Name: J2   Type: Two-Body   Function: Bspline
+
+    Radial function for species: u - u
+     Number of parameters: 10
+     Cusp: -0.25
+     Cutoff radius: 10
+
+     Name                        Value Type Recompute Use Index
+     ---- ---------------------------- ---- --------- --- -----
+     uu_0                 3.119553e-01    1         1 OFF
+     uu_1                 1.443612e-01    1         1 OFF
+     uu_2                 4.227954e-02    1         1 OFF
+     uu_3                -2.091318e-02    1         1 OFF
+     uu_4                -6.739302e-02    1         1 OFF
+     uu_5                -1.038626e-01    1         1 OFF
+     uu_6                -1.332105e-01    1         1 OFF
+     uu_7                -1.491685e-01    1         1 OFF
+     uu_8                -1.431060e-01    1         1 OFF
+     uu_9                -1.127137e-01    1         1 OFF
+
+    Radial function for species: u - d
+     Number of parameters: 10
+     Cusp: -5.000000e-01
+     Cutoff radius: 1.000000e+01
+
+     Name                        Value Type Recompute Use Index
+     ---- ---------------------------- ---- --------- --- -----
+     ud_0                 4.543891e-01    1         1 OFF
+     ud_1                 1.883267e-01    1         1 OFF
+     ud_2                 6.734361e-02    1         1 OFF
+     ud_3                -4.361401e-03    1         1 OFF
+     ud_4                -6.205385e-02    1         1 OFF
+     ud_5                -1.046264e-01    1         1 OFF
+     ud_6                -1.333936e-01    1         1 OFF
+     ud_7                -1.511899e-01    1         1 OFF
+     ud_8                -1.525473e-01    1         1 OFF
+     ud_9                -1.435980e-01    1         1 OFF
+
+
+   Jastrow
+   -------
+    Name: J1   Type: One-Body   Function: Bspline
+
+    Radial function for element: O
+     Number of parameters: 10
+     Cusp: 0.000000e+00
+     Cutoff radius: 1.000000e+01
+
+     Name                        Value Type Recompute Use Index
+     ---- ---------------------------- ---- --------- --- -----
+     eO_0                -7.495067e-01    1         1 OFF
+     eO_1                -4.276912e-01    1         1 OFF
+     eO_2                -1.228651e-02    1         1 OFF
+     eO_3                 3.047740e-01    1         1 OFF
+     eO_4                 5.330075e-01    1         1 OFF
+     eO_5                 4.974630e-01    1         1 OFF
+     eO_6                 2.675125e-01    1         1 OFF
+     eO_7                -4.320004e-02    1         1 OFF
+     eO_8                -2.438796e-01    1         1 OFF
+     eO_9                -1.181711e-01    1         1 OFF
+
+    Radial function for element: H1
+     Number of parameters: 10
+     Cusp: 0.000000e+00
+     Cutoff radius: 1.000000e+01
+
+      Name                        Value Type Recompute Use Index
+     ----- ---------------------------- ---- --------- --- -----
+     eH1_0                -2.676094e-01    1         1 OFF
+     eH1_1                -1.616498e-01    1         1 OFF
+     eH1_2                -1.122983e-01    1         1 OFF
+     eH1_3                -5.662083e-02    1         1 OFF
+     eH1_4                -6.519594e-03    1         1 OFF
+     eH1_5                 3.013049e-02    1         1 OFF
+     eH1_6                 9.391007e-02    1         1 OFF
+     eH1_7                 1.615722e-01    1         1 OFF
+     eH1_8                 2.039372e-01    1         1 OFF
+     eH1_9                 1.127297e-01    1         1 OFF
+
+    Radial function for element: H2
+     Number of parameters: 10
+     Cusp: 0.000000e+00
+     Cutoff radius: 1.000000e+01
+
+      Name                        Value Type Recompute Use Index
+     ----- ---------------------------- ---- --------- --- -----
+     eH2_0                -2.649530e-01    1         1 OFF
+     eH2_1                -1.589176e-01    1         1 OFF
+     eH2_2                -1.096174e-01    1         1 OFF
+     eH2_3                -5.393643e-02    1         1 OFF
+     eH2_4                -3.730851e-03    1         1 OFF
+     eH2_5                 3.393142e-02    1         1 OFF
+     eH2_6                 9.724689e-02    1         1 OFF
+     eH2_7                 1.616514e-01    1         1 OFF
+     eH2_8                 2.047342e-01    1         1 OFF
+     eH2_9                 1.036299e-01    1         1 OFF
+
+  Created SPOSet builder named 'LCAOBSet' of type molecularorbital
+  LCAO: SoaAtomicBasisSet<MultiQuintic,0>
+  AO BasisSet for O
+   Angular momentum expanded in cartesian functions x^lx y^ly z^lz according to Gamess
+Using log grid with default values: ri = 1.000000e-06 rf = 1.000000e+02 npts = 1001
+   R(n,l,m,s) 0 0 0 0
+   R(n,l,m,s) 1 0 0 0
+   R(n,l,m,s) 2 1 0 0
+   R(n,l,m,s) 3 1 0 0
+   R(n,l,m,s) 4 2 0 0
+Expanding Ylm (angular function) according to Gamess using cartesian gaussians
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 3 cartesian gaussian orbitals for l= 1
+Adding 3 cartesian gaussian orbitals for l= 1
+Adding 6 cartesian gaussian orbitals for l= 2
+  Setting cutoff radius 1.018591e+01
+
+   Maximum Angular Momentum  = 2
+   Number of Radial functors = 5
+   Basis size                = 14
+
+  AO BasisSet for H1
+   Angular momentum expanded in cartesian functions x^lx y^ly z^lz according to Gamess
+Using log grid with default values: ri = 1.000000e-06 rf = 1.000000e+02 npts = 1001
+   R(n,l,m,s) 0 0 0 0
+   R(n,l,m,s) 1 0 0 0
+   R(n,l,m,s) 2 1 0 0
+Expanding Ylm (angular function) according to Gamess using cartesian gaussians
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 3 cartesian gaussian orbitals for l= 1
+  Setting cutoff radius 1.270574e+01
+
+   Maximum Angular Momentum  = 1
+   Number of Radial functors = 3
+   Basis size                = 5
+
+  AO BasisSet for H2
+   Angular momentum expanded in cartesian functions x^lx y^ly z^lz according to Gamess
+Using log grid with default values: ri = 1.000000e-06 rf = 1.000000e+02 npts = 1001
+   R(n,l,m,s) 0 0 0 0
+   R(n,l,m,s) 1 0 0 0
+   R(n,l,m,s) 2 1 0 0
+Expanding Ylm (angular function) according to Gamess using cartesian gaussians
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 1 cartesian gaussian orbitals for l= 0
+Adding 3 cartesian gaussian orbitals for l= 1
+  Setting cutoff radius 1.270574e+01
+
+   Maximum Angular Momentum  = 1
+   Number of Radial functors = 3
+   Basis size                = 5
+
+Creating SPOSet in SlaterDetBuilder::put(xmlNodePtr cur).
+spo_name = spo-up
+  Building SPOSet 'spo-up' with '' basis set.
+Creating SPOSet in SlaterDetBuilder::put(xmlNodePtr cur).
+spo_name = spo-dn
+  Building SPOSet 'spo-dn' with '' basis set.
+Using Bryan's algorithm for MultiSlaterDeterminant expansion. 
+Creating base determinant (up) for MSD expansion. 
+Creating base determinant (down) for MSD expansion. 
+Found determinant list. 
+Reading CI expansion.
+Found 75 terms in the MSD expansion.
+Norm of ci vector (sum of ci^2): 2.009048e+01
+Norm of qchem ci vector (sum of qchem_ci^2): 0.000000e+00
+Found 30 unique up determinants.
+Found 30 unique down determinants.
+Number of terms in pairs array: 20
+Number of terms in pairs array: 20
+CI coefficients are optimizable. 
+  FermionWF = MultiSlaterDeterminantFast
+  QMCHamiltonian::addOperator Kinetic to H, physical Hamiltonian 
+  QMCHamiltonian::addOperator ElecElec to H, physical Hamiltonian 
+QMCHamiltonian::addOperatorType added type coulomb named ElecElec
+
+  ECPotential builder for pseudopotential 
+
+  Adding pseudopotential for O
+   Linear grid  ri=0.000000e+00 rf=1.000000e+01 npts = 10001
+    ECPComponentBuilder::buildSemiLocalAndLocal 
+    Assuming Hartree unit
+   Number of angular momentum channels 2
+   Maximum angular momentum channel 1
+   Creating a Linear Grid Rmax=1.075000e+00
+  Using global grid with delta = 1.000000e-03
+   Making L=1 a local potential with a radial cutoff of 9.999000e+00
+    Non-local pseudopotential parameters
+    Maximum angular mementum = 0
+    Number of non-local channels = 1
+       l(0)=0
+    Cutoff radius = 1.075000e+00
+    Spherical grids and weights: 
+         1.0000000000e+00  0.0000000000e+00  0.0000000000e+00    8.3333333333e-02
+        -1.0000000000e+00  1.2246467991e-16  0.0000000000e+00    8.3333333333e-02
+         4.4721359550e-01  8.9442719100e-01  0.0000000000e+00    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -8.9442719100e-01  1.0953573965e-16    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+    Maximum cutoff radius 1.0750000000e+00
+
+  Adding pseudopotential for H1
+   Linear grid  ri=0.0000000000e+00 rf=1.0000000000e+01 npts = 10001
+    ECPComponentBuilder::buildSemiLocalAndLocal 
+    Assuming Hartree unit
+   Number of angular momentum channels 2
+   Maximum angular momentum channel 1
+   Creating a Linear Grid Rmax=1.0000000000e-10
+  Using global grid with delta = 1.0000000000e-03
+   Making L=1 a local potential with a radial cutoff of 9.9990000000e+00
+    Non-local pseudopotential parameters
+    Maximum angular mementum = 0
+    Number of non-local channels = 1
+       l(0)=0
+    Cutoff radius = 1.0000000000e-03
+    Spherical grids and weights: 
+         1.0000000000e+00  0.0000000000e+00  0.0000000000e+00    8.3333333333e-02
+        -1.0000000000e+00  1.2246467991e-16  0.0000000000e+00    8.3333333333e-02
+         4.4721359550e-01  8.9442719100e-01  0.0000000000e+00    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -8.9442719100e-01  1.0953573965e-16    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+    Maximum cutoff radius 1.0000000000e-03
+
+  Adding pseudopotential for H2
+   Linear grid  ri=0.0000000000e+00 rf=1.0000000000e+01 npts = 10001
+    ECPComponentBuilder::buildSemiLocalAndLocal 
+    Assuming Hartree unit
+   Number of angular momentum channels 2
+   Maximum angular momentum channel 1
+   Creating a Linear Grid Rmax=1.0000000000e-10
+  Using global grid with delta = 1.0000000000e-03
+   Making L=1 a local potential with a radial cutoff of 9.9990000000e+00
+    Non-local pseudopotential parameters
+    Maximum angular mementum = 0
+    Number of non-local channels = 1
+       l(0)=0
+    Cutoff radius = 1.0000000000e-03
+    Spherical grids and weights: 
+         1.0000000000e+00  0.0000000000e+00  0.0000000000e+00    8.3333333333e-02
+        -1.0000000000e+00  1.2246467991e-16  0.0000000000e+00    8.3333333333e-02
+         4.4721359550e-01  8.9442719100e-01  0.0000000000e+00    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01  8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01  5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -8.9442719100e-01  1.0953573965e-16    8.3333333333e-02
+         4.4721359550e-01 -7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+        -4.4721359550e-01 -2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+         4.4721359550e-01  2.7639320225e-01 -8.5065080835e-01    8.3333333333e-02
+        -4.4721359550e-01  7.2360679775e-01 -5.2573111212e-01    8.3333333333e-02
+    Maximum cutoff radius 1.0000000000e-03
+  QMCHamiltonian::addOperator LocalECP to H, physical Hamiltonian 
+
+  Using NonLocalECP potential 
+    Maximum grid on a sphere for NonLocalECPotential: 12
+  QMCHamiltonian::addOperator NonLocalECP to H, physical Hamiltonian 
+QMCHamiltonian::addOperatorType added type pseudo named NonLocalECP
+  QMCHamiltonian::addOperator IonIon to H, physical Hamiltonian 
+QMCHamiltonian::addOperatorType added type coulomb named IonIon
+
+  QMCHamiltonian::add2WalkerProperty added
+    5 to P::PropertyList 
+    0 to P::Collectables 
+    starting Index of the observables in P::PropertyList = 10
+ParticleSetPool::randomize 
+  Initialization Execution time = 2.9478e-01 secs
+=========================================================
+ Summary of QMC systems 
+=========================================================
+ParticleSetPool has: 
+
+  ParticleSet 'e' contains 8 particles :  u(4) d(4)
+
+    u  6.1002844054e-01  1.3250453608e-01 -4.2267217978e-01
+    u -4.3494847795e-01 -2.3203549626e-01  1.0876787134e-01
+    u -1.5984350305e-01  8.1842956548e-01  5.1837161342e-02
+    u  1.1948334779e+00  1.4453040952e+00  1.6346730752e+00
+    d -9.5054657961e-01  2.3768909128e-01 -6.0876959125e-01
+    d -2.0429807517e-01  1.5546410594e+00 -1.0292769217e-01
+    d  4.7451519973e-01  3.4811618685e-02  3.5425821429e-01
+    d -8.6403568621e-02 -1.8286319639e+00  9.9844026831e-01
+
+  Distance table for similar particles (A-A):
+    source/target: e
+    Using structure-of-arrays (SoA) data layout
+    Distance computations use open boundary conditions in 3D.
+
+  Distance table for dissimilar particles (A-B):
+    source: ion0  target: e
+    Using structure-of-arrays (SoA) data layout
+    Distance computations use open boundary conditions in 3D.
+
+
+  ParticleSet 'ion0' contains 3 particles :  O(1) H1(1) H2(1)
+
+    O  0.0000000000e+00  0.0000000000e+00 -1.3209751581e-01
+    H1  0.0000000000e+00  1.4315279079e+00  9.7970009311e-01
+    H2  0.0000000000e+00 -1.4315279079e+00  9.7970009311e-01
+
+  Distance table for similar particles (A-A):
+    source/target: ion0
+    Using structure-of-arrays (SoA) data layout
+    Distance computations use open boundary conditions in 3D.
+
+
+  Hamiltonian h0
+  Kinetic         Kinetic energy
+  ElecElec        CoulombAA source/target e
+
+  LocalECP        LocalECPotential: ion0
+  NonLocalECP     NonLocalECPotential: ion0
+  IonIon          CoulombAA source/target ion0
+
+
+Loop execution max-interations = 1000
+Inside LM engine constructor, num_params is: 0 and _total_num_params is: 0
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s000 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000000000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+Omega from input file: 0.0000000000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+  Adding 1 walkers to 0 existing sets
+  Total number of walkers: 1.2800000000e+02
+  Total weight: 1.2800000000e+02
+
+=========================================================
+  Start VMC
+  File Root H2O.s000 append = no 
+=========================================================
+Resetting walkers
+  Using the current 1 walkers.
+  Total number of walkers: 1.2800000000e+02
+  Total weight: 1.2800000000e+02
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=0  my_counter=0
+  time step      = 5.0000000000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000000000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625000000e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000000000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000000000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000000000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000000000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000000000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000000000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000000000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625000000e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000000000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000000000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000000000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+  Set drift_modifier UNR parameter a = 1.0000000000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000000000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+[n0193.savio3:183519] 87 more processes have sent help message help-mpi-btl-openib.txt / no device params found
+[n0193.savio3:183519] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 0
+    time step          = 0.05
+    reference energy   = -17.0071
+    reference variance = 0.415225
+====================================================
+  Execution time = 3.6868e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s000
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+ w_tot 1.5561e+04
+  VMC Eavg = -1.6905e+01
+  VMC Evar = 3.3271e-01
+  Total weights = 1.992578144e+06
+Energy Average: -1.690481055e+01
+Energy Variance: 3.311847965e-01
+Weight Total: 2.000000000e+06
+VGS Total: 1.992578144e+06
+Energy Standard Deviation: 5.754865737e-01
+Energy Standard Error: 4.069304587e-04
+Using the Generalized Variational Principle as the target function.
+Completed all_reduce() step.
+Completed for loop.
+Target Function Average: 3.441691364e-04
+Norm of gradient vector is: 9.052927880e-03
+got here 7
+After engine_checkConfig
+  Execution time = 2.5691e+00
+  </log>
+</opt>
+<opt stage="main" walkers="15625">
+  <log>
+descent_num: 0
+Value of descent_num: 0
+Should only happen on first descent step
+Number of Parameters: 74
+Descent Number: 0
+Finalization Descent Num (should be zero if not on last section): 0
+Parameter Type step sizes:  TJF_2Body_eta=1.0000e-01 TJF_1Body_eta=1.0000e-013Body_eta1.0000e-04 F_eta=1.0000e-03 CI_eta=1.0000e-02 Orb_eta=1.0000e-03
+Using RMSprop
+Param 0 update:	2.0382e-08
+Param 1 update:	6.0984e-09
+Param 2 update:	5.2931e-08
+Param 3 update:	-2.6830e-08
+Param 4 update:	4.7100e-08
+Param 5 update:	3.7965e-08
+Param 6 update:	2.6397e-09
+Param 7 update:	1.0624e-08
+Param 8 update:	4.9154e-08
+Param 9 update:	5.6835e-08
+Param 10 update:	1.2266e-07
+Param 11 update:	-7.1219e-09
+Param 12 update:	-5.0948e-08
+Param 13 update:	7.2407e-08
+Param 14 update:	-6.8341e-08
+Param 15 update:	-6.0391e-08
+Param 16 update:	-2.0589e-08
+Param 17 update:	-1.0398e-07
+Param 18 update:	-1.8565e-08
+Param 19 update:	1.4711e-08
+Param 20 update:	-6.9123e-09
+Param 21 update:	1.2648e-08
+Param 22 update:	-7.8758e-08
+Param 23 update:	-6.1350e-08
+Param 24 update:	7.7929e-08
+Param 25 update:	6.1773e-08
+Param 26 update:	-3.7163e-09
+Param 27 update:	-7.3713e-08
+Param 28 update:	7.6000e-08
+Param 29 update:	-1.6729e-08
+Param 30 update:	4.7948e-08
+Param 31 update:	-1.0862e-08
+Param 32 update:	-1.4634e-09
+Param 33 update:	3.7146e-09
+Param 34 update:	1.0127e-07
+Param 35 update:	9.4131e-08
+Param 36 update:	-2.5148e-08
+Param 37 update:	5.5760e-08
+Param 38 update:	2.6696e-08
+Param 39 update:	-1.6020e-07
+Param 40 update:	2.5147e-08
+Param 41 update:	-4.9350e-08
+Param 42 update:	2.1097e-08
+Param 43 update:	3.5894e-08
+Param 44 update:	2.9712e-08
+Param 45 update:	-2.1317e-08
+Param 46 update:	1.5031e-07
+Param 47 update:	-4.4574e-08
+Param 48 update:	8.2377e-09
+Param 49 update:	-8.5139e-09
+Param 50 update:	-2.2673e-08
+Param 51 update:	9.1256e-08
+Param 52 update:	1.6388e-07
+Param 53 update:	1.7772e-07
+Param 54 update:	-6.4350e-10
+Param 55 update:	6.7697e-09
+Param 56 update:	-1.2924e-08
+Param 57 update:	-6.9558e-08
+Param 58 update:	9.0450e-08
+Param 59 update:	2.2704e-08
+Param 60 update:	6.9268e-08
+Param 61 update:	-6.7639e-08
+Param 62 update:	-8.9014e-09
+Param 63 update:	-1.1284e-07
+Param 64 update:	-3.3216e-08
+Param 65 update:	-7.9025e-08
+Param 66 update:	-2.0328e-07
+Param 67 update:	-8.5970e-08
+Param 68 update:	-7.1438e-08
+Param 69 update:	1.5871e-07
+Param 70 update:	-5.3303e-09
+Param 71 update:	-4.6671e-09
+Param 72 update:	-1.4651e-08
+Param 73 update:	-6.2194e-08
+Parameter update vector magnitude: 6.0353e-07
+Largest magnitude parameter update: 1.7772e-07
+  Execution time = 6.2567e+00
+  </log>
+  <optVariables href="H2O.s000.opt.xml">
+ci_0001 3.152206e+00                 3 1 ON  0
+ci_0002 3.153513e+00                 3 1 ON  1
+ci_0003 -1.205413e-01                3 1 ON  2
+ci_0004 -1.226247e-01                3 1 ON  3
+ci_0005 -1.465151e-01                3 1 ON  4
+ci_0006 -1.596885e-01                3 1 ON  5
+ci_0007 -9.540762e-02                3 1 ON  6
+ci_0008 -9.621206e-02                3 1 ON  7
+ci_0009 -7.732568e-02                3 1 ON  8
+ci_0010 -7.771979e-02                3 1 ON  9
+ci_0011 -5.326019e-02                3 1 ON  10
+ci_0012 -5.504554e-02                3 1 ON  11
+ci_0013 5.828564e-02                 3 1 ON  12
+ci_0014 5.717408e-02                 3 1 ON  13
+ci_0015 5.880595e-02                 3 1 ON  14
+ci_0016 5.756942e-02                 3 1 ON  15
+ci_0017 5.040543e-02                 3 1 ON  16
+ci_0018 5.217941e-02                 3 1 ON  17
+ci_0019 4.930420e-02                 3 1 ON  18
+ci_0020 5.176508e-02                 3 1 ON  19
+ci_0021 -3.917840e-03                3 1 ON  20
+ci_0022 9.299784e-03                 3 1 ON  21
+ci_0023 -4.810153e-02                3 1 ON  22
+ci_0024 -5.139895e-02                3 1 ON  23
+ci_0025 -4.753566e-02                3 1 ON  24
+ci_0026 -4.717296e-02                3 1 ON  25
+ci_0027 -4.801704e-02                3 1 ON  26
+ci_0028 -5.123380e-02                3 1 ON  27
+ci_0029 -4.830443e-02                3 1 ON  28
+ci_0030 -4.794830e-02                3 1 ON  29
+ci_0031 9.169985e-02                 3 1 ON  30
+ci_0032 8.303787e-02                 3 1 ON  31
+ci_0033 4.573228e-02                 3 1 ON  32
+ci_0034 4.518465e-02                 3 1 ON  33
+ci_0035 3.026364e-02                 3 1 ON  34
+ci_0036 2.782290e-02                 3 1 ON  35
+ci_0037 -4.669815e-02                3 1 ON  36
+ci_0038 -4.673323e-02                3 1 ON  37
+ci_0039 -1.086553e-02                3 1 ON  38
+ci_0040 -1.218104e-02                3 1 ON  39
+ci_0041 3.135871e-02                 3 1 ON  40
+ci_0042 3.110712e-02                 3 1 ON  41
+ci_0043 -6.838035e-02                3 1 ON  42
+ci_0044 -8.041101e-02                3 1 ON  43
+ci_0045 3.251012e-02                 3 1 ON  44
+ci_0046 3.150593e-02                 3 1 ON  45
+ci_0047 -8.395560e-03                3 1 ON  46
+ci_0048 -8.298658e-03                3 1 ON  47
+ci_0049 -2.467855e-02                3 1 ON  48
+ci_0050 -2.371947e-02                3 1 ON  49
+ci_0051 -1.364742e-02                3 1 ON  50
+ci_0052 -1.567935e-02                3 1 ON  51
+ci_0053 -2.072896e-02                3 1 ON  52
+ci_0054 -2.036192e-02                3 1 ON  53
+ci_0055 2.835721e-02                 3 1 ON  54
+ci_0056 2.817464e-02                 3 1 ON  55
+ci_0057 2.013992e-02                 3 1 ON  56
+ci_0058 2.127769e-02                 3 1 ON  57
+ci_0059 -1.875796e-02                3 1 ON  58
+ci_0060 -2.073982e-02                3 1 ON  59
+ci_0061 -1.665989e-02                3 1 ON  60
+ci_0062 -1.613456e-02                3 1 ON  61
+ci_0063 -3.814835e-02                3 1 ON  62
+ci_0064 -3.849295e-02                3 1 ON  63
+ci_0065 -2.280786e-02                3 1 ON  64
+ci_0066 -2.268417e-02                3 1 ON  65
+ci_0067 -2.164710e-02                3 1 ON  66
+ci_0068 -2.144641e-02                3 1 ON  67
+ci_0069 2.048938e-02                 3 1 ON  68
+ci_0070 1.947392e-02                 3 1 ON  69
+ci_0071 4.206086e-03                 3 1 ON  70
+ci_0072 4.618517e-03                 3 1 ON  71
+ci_0073 1.900953e-02                 3 1 ON  72
+ci_0074 1.922161e-02                 3 1 ON  73
+  </optVariables>
+   Restore the number of walkers to 1, removing 0 walkers.
+</opt>
+</optimization-report>
+  QMC Execution time = 6.2600e+00 secs
+  Reusing QMCFixedSampleLinearOptimize
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s001 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+
+=========================================================
+  Start VMC
+  File Root H2O.s001 append = no 
+=========================================================
+Using existing walkers 
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=1  my_counter=0
+  time step      = 5.0000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+    Restarting, cummulative properties:
+      energy     = -1.7007e+01
+      variance   = 0.0000e+00
+      r2accepted = 1.0000e-10
+      r2proposed = 1.0000e-10
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Cannot make clones again. Use existing 1 clones
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 1
+    time step          = 0.05
+    reference energy   = -16.8611
+    reference variance = 0.25768
+====================================================
+  Execution time = 3.6003e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s001
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+ w_tot 1.5565e+04
+  VMC Eavg = -1.6908e+01
+  VMC Evar = 3.4174e-01
+  Total weights = 1.992822342e+06
+Energy Average: -1.690825302e+01
+Energy Variance: 3.400319667e-01
+Weight Total: 2.000000000e+06
+VGS Total: 1.992822342e+06
+Energy Standard Deviation: 5.831226001e-01
+Energy Standard Error: 4.123299448e-04
+Using the Generalized Variational Principle as the target function.
+Completed all_reduce() step.
+Completed for loop.
+Target Function Average: 3.570926716e-04
+Norm of gradient vector is: 8.486638991e-03
+got here 7
+After engine_checkConfig
+  Execution time = 2.5646e+00
+  </log>
+</opt>
+<opt stage="main" walkers="15625">
+  <log>
+descent_num: 1
+Value of descent_num: 1
+Number of Parameters: 74
+Descent Number: 1
+Finalization Descent Num (should be zero if not on last section): 1
+Parameter Type step sizes:  TJF_2Body_eta=1.0000e-01 TJF_1Body_eta=1.0000e-013Body_eta1.0000e-04 F_eta=1.0000e-03 CI_eta=1.0000e-02 Orb_eta=1.0000e-03
+Using RMSprop
+Param 0 update:	6.4080e-05
+Param 1 update:	2.8485e-04
+Param 2 update:	1.4101e-04
+Param 3 update:	3.3119e-04
+Param 4 update:	-8.7950e-05
+Param 5 update:	1.7526e-04
+Param 6 update:	-2.2611e-04
+Param 7 update:	-1.1700e-04
+Param 8 update:	7.1067e-05
+Param 9 update:	3.3414e-04
+Param 10 update:	9.0649e-05
+Param 11 update:	4.7577e-04
+Param 12 update:	1.2209e-04
+Param 13 update:	-7.2960e-05
+Param 14 update:	9.1763e-05
+Param 15 update:	1.5962e-04
+Param 16 update:	2.7962e-05
+Param 17 update:	5.5127e-05
+Param 18 update:	-2.7463e-04
+Param 19 update:	6.0842e-06
+Param 20 update:	2.6366e-04
+Param 21 update:	-3.0830e-04
+Param 22 update:	-3.8661e-05
+Param 23 update:	2.1239e-04
+Param 24 update:	-5.9616e-05
+Param 25 update:	2.3193e-04
+Param 26 update:	2.5422e-04
+Param 27 update:	-2.2185e-05
+Param 28 update:	-5.3710e-05
+Param 29 update:	4.0074e-04
+Param 30 update:	5.5597e-06
+Param 31 update:	-8.2125e-05
+Param 32 update:	-1.5653e-04
+Param 33 update:	2.1912e-04
+Param 34 update:	9.5260e-05
+Param 35 update:	9.8103e-06
+Param 36 update:	-2.8789e-04
+Param 37 update:	-5.2413e-05
+Param 38 update:	-3.7878e-04
+Param 39 update:	6.0425e-05
+Param 40 update:	3.0698e-04
+Param 41 update:	-6.2329e-05
+Param 42 update:	-4.2378e-05
+Param 43 update:	1.0109e-04
+Param 44 update:	1.2581e-04
+Param 45 update:	-3.0934e-04
+Param 46 update:	-5.0251e-05
+Param 47 update:	-3.3460e-04
+Param 48 update:	-4.7250e-04
+Param 49 update:	-2.7349e-04
+Param 50 update:	4.4348e-04
+Param 51 update:	2.4512e-05
+Param 52 update:	7.5213e-06
+Param 53 update:	3.4425e-05
+Param 54 update:	-4.8261e-04
+Param 55 update:	-2.0676e-04
+Param 56 update:	-3.3185e-04
+Param 57 update:	-1.6630e-04
+Param 58 update:	-1.0377e-04
+Param 59 update:	1.4358e-04
+Param 60 update:	3.6588e-05
+Param 61 update:	2.4943e-04
+Param 62 update:	-4.5657e-04
+Param 63 update:	-9.0756e-05
+Param 64 update:	-1.0716e-04
+Param 65 update:	-1.3187e-04
+Param 66 update:	5.9555e-05
+Param 67 update:	6.5530e-06
+Param 68 update:	-3.5554e-04
+Param 69 update:	3.1486e-05
+Param 70 update:	4.4672e-04
+Param 71 update:	4.8148e-04
+Param 72 update:	3.3115e-04
+Param 73 update:	7.2449e-06
+Parameter update vector magnitude: 1.9697e-03
+Largest magnitude parameter update: 4.8148e-04
+  Execution time = 6.1657e+00
+  </log>
+  <optVariables href="H2O.s001.opt.xml">
+ci_0001 3.152270e+00                 3 1 ON  0
+ci_0002 3.153798e+00                 3 1 ON  1
+ci_0003 -1.204003e-01                3 1 ON  2
+ci_0004 -1.222935e-01                3 1 ON  3
+ci_0005 -1.466030e-01                3 1 ON  4
+ci_0006 -1.595132e-01                3 1 ON  5
+ci_0007 -9.563374e-02                3 1 ON  6
+ci_0008 -9.632906e-02                3 1 ON  7
+ci_0009 -7.725462e-02                3 1 ON  8
+ci_0010 -7.738565e-02                3 1 ON  9
+ci_0011 -5.316954e-02                3 1 ON  10
+ci_0012 -5.456977e-02                3 1 ON  11
+ci_0013 5.840773e-02                 3 1 ON  12
+ci_0014 5.710112e-02                 3 1 ON  13
+ci_0015 5.889771e-02                 3 1 ON  14
+ci_0016 5.772904e-02                 3 1 ON  15
+ci_0017 5.043339e-02                 3 1 ON  16
+ci_0018 5.223453e-02                 3 1 ON  17
+ci_0019 4.902956e-02                 3 1 ON  18
+ci_0020 5.177117e-02                 3 1 ON  19
+ci_0021 -3.654179e-03                3 1 ON  20
+ci_0022 8.991487e-03                 3 1 ON  21
+ci_0023 -4.814019e-02                3 1 ON  22
+ci_0024 -5.118656e-02                3 1 ON  23
+ci_0025 -4.759528e-02                3 1 ON  24
+ci_0026 -4.694104e-02                3 1 ON  25
+ci_0027 -4.776282e-02                3 1 ON  26
+ci_0028 -5.125598e-02                3 1 ON  27
+ci_0029 -4.835814e-02                3 1 ON  28
+ci_0030 -4.754755e-02                3 1 ON  29
+ci_0031 9.170541e-02                 3 1 ON  30
+ci_0032 8.295575e-02                 3 1 ON  31
+ci_0033 4.557575e-02                 3 1 ON  32
+ci_0034 4.540376e-02                 3 1 ON  33
+ci_0035 3.035890e-02                 3 1 ON  34
+ci_0036 2.783271e-02                 3 1 ON  35
+ci_0037 -4.698604e-02                3 1 ON  36
+ci_0038 -4.678564e-02                3 1 ON  37
+ci_0039 -1.124432e-02                3 1 ON  38
+ci_0040 -1.212062e-02                3 1 ON  39
+ci_0041 3.166570e-02                 3 1 ON  40
+ci_0042 3.104479e-02                 3 1 ON  41
+ci_0043 -6.842273e-02                3 1 ON  42
+ci_0044 -8.030992e-02                3 1 ON  43
+ci_0045 3.263593e-02                 3 1 ON  44
+ci_0046 3.119660e-02                 3 1 ON  45
+ci_0047 -8.445811e-03                3 1 ON  46
+ci_0048 -8.633261e-03                3 1 ON  47
+ci_0049 -2.515105e-02                3 1 ON  48
+ci_0050 -2.399295e-02                3 1 ON  49
+ci_0051 -1.320394e-02                3 1 ON  50
+ci_0052 -1.565484e-02                3 1 ON  51
+ci_0053 -2.072144e-02                3 1 ON  52
+ci_0054 -2.032749e-02                3 1 ON  53
+ci_0055 2.787461e-02                 3 1 ON  54
+ci_0056 2.796788e-02                 3 1 ON  55
+ci_0057 1.980807e-02                 3 1 ON  56
+ci_0058 2.111139e-02                 3 1 ON  57
+ci_0059 -1.886173e-02                3 1 ON  58
+ci_0060 -2.059624e-02                3 1 ON  59
+ci_0061 -1.662330e-02                3 1 ON  60
+ci_0062 -1.588512e-02                3 1 ON  61
+ci_0063 -3.860492e-02                3 1 ON  62
+ci_0064 -3.858371e-02                3 1 ON  63
+ci_0065 -2.291502e-02                3 1 ON  64
+ci_0066 -2.281604e-02                3 1 ON  65
+ci_0067 -2.158755e-02                3 1 ON  66
+ci_0068 -2.143986e-02                3 1 ON  67
+ci_0069 2.013384e-02                 3 1 ON  68
+ci_0070 1.950540e-02                 3 1 ON  69
+ci_0071 4.652809e-03                 3 1 ON  70
+ci_0072 5.099994e-03                 3 1 ON  71
+ci_0073 1.934068e-02                 3 1 ON  72
+ci_0074 1.922886e-02                 3 1 ON  73
+  </optVariables>
+   Restore the number of walkers to 1, removing 0 walkers.
+</opt>
+</optimization-report>
+  QMC Execution time = 6.1694e+00 secs
+  Reusing QMCFixedSampleLinearOptimize
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s002 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+
+=========================================================
+  Start VMC
+  File Root H2O.s002 append = no 
+=========================================================
+Using existing walkers 
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=2  my_counter=0
+  time step      = 5.0000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+    Restarting, cummulative properties:
+      energy     = -1.6934e+01
+      variance   = 0.0000e+00
+      r2accepted = 1.0000e-10
+      r2proposed = 1.0000e-10
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Cannot make clones again. Use existing 1 clones
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 2
+    time step          = 0.05
+    reference energy   = -16.8062
+    reference variance = 0.194903
+====================================================
+  Execution time = 3.5502e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s002
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+ w_tot 1.5571e+04
+  VMC Eavg = -1.6906e+01
+  VMC Evar = 3.4188e-01
+  Total weights = 1.992700100e+06
+Energy Average: -1.690606598e+01
+Energy Variance: 3.384945708e-01
+Weight Total: 2.000000000e+06
+VGS Total: 1.992700100e+06
+Energy Standard Deviation: 5.818028625e-01
+Energy Standard Error: 4.113967494e-04
+Using the Generalized Variational Principle as the target function.
+Completed all_reduce() step.
+Completed for loop.
+Target Function Average: 4.206577949e-04
+Norm of gradient vector is: 1.050586815e-02
+got here 7
+After engine_checkConfig
+  Execution time = 2.5517e+00
+  </log>
+</opt>
+<opt stage="main" walkers="15625">
+  <log>
+descent_num: 2
+Value of descent_num: 2
+Number of Parameters: 74
+Descent Number: 2
+Finalization Descent Num (should be zero if not on last section): 2
+Parameter Type step sizes:  TJF_2Body_eta=1.0000e-01 TJF_1Body_eta=1.0000e-013Body_eta1.0000e-04 F_eta=1.0000e-03 CI_eta=1.0000e-02 Orb_eta=1.0000e-03
+Using RMSprop
+Param 0 update:	4.7153e-05
+Param 1 update:	-3.0334e-05
+Param 2 update:	1.4407e-05
+Param 3 update:	-1.5246e-04
+Param 4 update:	-5.4671e-05
+Param 5 update:	-6.6194e-06
+Param 6 update:	-3.9405e-04
+Param 7 update:	1.2537e-04
+Param 8 update:	-1.4906e-04
+Param 9 update:	3.9537e-05
+Param 10 update:	2.7750e-06
+Param 11 update:	-3.8125e-04
+Param 12 update:	-3.1611e-04
+Param 13 update:	1.5324e-04
+Param 14 update:	1.8055e-04
+Param 15 update:	-2.1282e-04
+Param 16 update:	6.3273e-04
+Param 17 update:	-5.3173e-05
+Param 18 update:	-3.0255e-04
+Param 19 update:	6.2225e-04
+Param 20 update:	-5.8796e-04
+Param 21 update:	2.8000e-04
+Param 22 update:	-6.0297e-05
+Param 23 update:	-2.8664e-04
+Param 24 update:	-1.9668e-04
+Param 25 update:	-4.2139e-05
+Param 26 update:	-7.0806e-04
+Param 27 update:	1.9119e-04
+Param 28 update:	7.3070e-06
+Param 29 update:	-7.0302e-04
+Param 30 update:	-1.7113e-04
+Param 31 update:	5.9396e-04
+Param 32 update:	1.9324e-04
+Param 33 update:	1.2588e-04
+Param 34 update:	4.1304e-07
+Param 35 update:	-5.8816e-05
+Param 36 update:	3.6519e-07
+Param 37 update:	4.2567e-05
+Param 38 update:	6.9941e-04
+Param 39 update:	5.5856e-05
+Param 40 update:	-8.7893e-06
+Param 41 update:	2.9861e-04
+Param 42 update:	-1.7936e-04
+Param 43 update:	8.1359e-05
+Param 44 update:	1.3489e-04
+Param 45 update:	5.0357e-04
+Param 46 update:	2.7634e-04
+Param 47 update:	-1.4945e-04
+Param 48 update:	-2.5796e-05
+Param 49 update:	7.0023e-04
+Param 50 update:	-5.9043e-04
+Param 51 update:	-6.0546e-04
+Param 52 update:	1.7558e-04
+Param 53 update:	3.9418e-05
+Param 54 update:	6.8339e-04
+Param 55 update:	-2.0456e-04
+Param 56 update:	7.8168e-04
+Param 57 update:	-1.4214e-04
+Param 58 update:	2.5558e-04
+Param 59 update:	-6.3645e-04
+Param 60 update:	1.6490e-04
+Param 61 update:	-2.7757e-04
+Param 62 update:	7.4352e-04
+Param 63 update:	-3.4911e-04
+Param 64 update:	-4.4940e-05
+Param 65 update:	-1.3713e-04
+Param 66 update:	2.3036e-04
+Param 67 update:	-2.5114e-04
+Param 68 update:	3.6734e-04
+Param 69 update:	-1.6412e-05
+Param 70 update:	-8.6341e-04
+Param 71 update:	-1.7912e-04
+Param 72 update:	-8.0005e-04
+Param 73 update:	6.9530e-05
+Parameter update vector magnitude: 3.1288e-03
+Largest magnitude parameter update: 7.8168e-04
+  Execution time = 6.1026e+00
+  </log>
+  <optVariables href="H2O.s002.opt.xml">
+ci_0001 3.152318e+00                 3 1 ON  0
+ci_0002 3.153768e+00                 3 1 ON  1
+ci_0003 -1.203859e-01                3 1 ON  2
+ci_0004 -1.224460e-01                3 1 ON  3
+ci_0005 -1.466577e-01                3 1 ON  4
+ci_0006 -1.595198e-01                3 1 ON  5
+ci_0007 -9.602778e-02                3 1 ON  6
+ci_0008 -9.620369e-02                3 1 ON  7
+ci_0009 -7.740367e-02                3 1 ON  8
+ci_0010 -7.734612e-02                3 1 ON  9
+ci_0011 -5.316676e-02                3 1 ON  10
+ci_0012 -5.495102e-02                3 1 ON  11
+ci_0013 5.809162e-02                 3 1 ON  12
+ci_0014 5.725436e-02                 3 1 ON  13
+ci_0015 5.907826e-02                 3 1 ON  14
+ci_0016 5.751623e-02                 3 1 ON  15
+ci_0017 5.106613e-02                 3 1 ON  16
+ci_0018 5.218136e-02                 3 1 ON  17
+ci_0019 4.872701e-02                 3 1 ON  18
+ci_0020 5.239342e-02                 3 1 ON  19
+ci_0021 -4.242142e-03                3 1 ON  20
+ci_0022 9.271491e-03                 3 1 ON  21
+ci_0023 -4.820049e-02                3 1 ON  22
+ci_0024 -5.147320e-02                3 1 ON  23
+ci_0025 -4.779196e-02                3 1 ON  24
+ci_0026 -4.698318e-02                3 1 ON  25
+ci_0027 -4.847088e-02                3 1 ON  26
+ci_0028 -5.106479e-02                3 1 ON  27
+ci_0029 -4.835083e-02                3 1 ON  28
+ci_0030 -4.825057e-02                3 1 ON  29
+ci_0031 9.153428e-02                 3 1 ON  30
+ci_0032 8.354971e-02                 3 1 ON  31
+ci_0033 4.576898e-02                 3 1 ON  32
+ci_0034 4.552964e-02                 3 1 ON  33
+ci_0035 3.035931e-02                 3 1 ON  34
+ci_0036 2.777390e-02                 3 1 ON  35
+ci_0037 -4.698567e-02                3 1 ON  36
+ci_0038 -4.674307e-02                3 1 ON  37
+ci_0039 -1.054491e-02                3 1 ON  38
+ci_0040 -1.206476e-02                3 1 ON  39
+ci_0041 3.165691e-02                 3 1 ON  40
+ci_0042 3.134339e-02                 3 1 ON  41
+ci_0043 -6.860210e-02                3 1 ON  42
+ci_0044 -8.022856e-02                3 1 ON  43
+ci_0045 3.277082e-02                 3 1 ON  44
+ci_0046 3.170017e-02                 3 1 ON  45
+ci_0047 -8.169473e-03                3 1 ON  46
+ci_0048 -8.782710e-03                3 1 ON  47
+ci_0049 -2.517684e-02                3 1 ON  48
+ci_0050 -2.329272e-02                3 1 ON  49
+ci_0051 -1.379437e-02                3 1 ON  50
+ci_0052 -1.626030e-02                3 1 ON  51
+ci_0053 -2.054586e-02                3 1 ON  52
+ci_0054 -2.028808e-02                3 1 ON  53
+ci_0055 2.855800e-02                 3 1 ON  54
+ci_0056 2.776333e-02                 3 1 ON  55
+ci_0057 2.058975e-02                 3 1 ON  56
+ci_0058 2.096925e-02                 3 1 ON  57
+ci_0059 -1.860615e-02                3 1 ON  58
+ci_0060 -2.123270e-02                3 1 ON  59
+ci_0061 -1.645839e-02                3 1 ON  60
+ci_0062 -1.616269e-02                3 1 ON  61
+ci_0063 -3.786140e-02                3 1 ON  62
+ci_0064 -3.893281e-02                3 1 ON  63
+ci_0065 -2.295996e-02                3 1 ON  64
+ci_0066 -2.295317e-02                3 1 ON  65
+ci_0067 -2.135719e-02                3 1 ON  66
+ci_0068 -2.169099e-02                3 1 ON  67
+ci_0069 2.050118e-02                 3 1 ON  68
+ci_0070 1.948899e-02                 3 1 ON  69
+ci_0071 3.789396e-03                 3 1 ON  70
+ci_0072 4.920878e-03                 3 1 ON  71
+ci_0073 1.854063e-02                 3 1 ON  72
+ci_0074 1.929839e-02                 3 1 ON  73
+  </optVariables>
+   Restore the number of walkers to 1, removing 0 walkers.
+</opt>
+</optimization-report>
+  QMC Execution time = 6.1729e+00 secs
+  Reusing QMCFixedSampleLinearOptimize
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s003 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+
+=========================================================
+  Start VMC
+  File Root H2O.s003 append = no 
+=========================================================
+Using existing walkers 
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=3  my_counter=0
+  time step      = 5.0000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+    Restarting, cummulative properties:
+      energy     = -1.6891e+01
+      variance   = 0.0000e+00
+      r2accepted = 1.0000e-10
+      r2proposed = 1.0000e-10
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Cannot make clones again. Use existing 1 clones
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 3
+    time step          = 0.05
+    reference energy   = -16.8946
+    reference variance = 0.181675
+====================================================
+  Execution time = 3.5830e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s003
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+ w_tot 1.5568e+04
+  VMC Eavg = -1.6906e+01
+  VMC Evar = 3.4359e-01
+  Total weights = 1.992617600e+06
+Energy Average: -1.690601596e+01
+Energy Variance: 3.410819434e-01
+Weight Total: 2.000000000e+06
+VGS Total: 1.992617600e+06
+Energy Standard Deviation: 5.840222114e-01
+Energy Standard Error: 4.129660660e-04
+Using the Generalized Variational Principle as the target function.
+Completed all_reduce() step.
+Completed for loop.
+Target Function Average: 4.539014559e-04
+Norm of gradient vector is: 1.045646738e-02
+got here 7
+After engine_checkConfig
+  Execution time = 2.5411e+00
+  </log>
+</opt>
+<opt stage="main" walkers="15625">
+  <log>
+descent_num: 3
+Value of descent_num: 3
+Number of Parameters: 74
+Descent Number: 3
+Finalization Descent Num (should be zero if not on last section): 3
+Parameter Type step sizes:  TJF_2Body_eta=1.0000e-01 TJF_1Body_eta=1.0000e-013Body_eta1.0000e-04 F_eta=1.0000e-03 CI_eta=1.0000e-02 Orb_eta=1.0000e-03
+Using RMSprop
+Param 0 update:	-7.2147e-05
+Param 1 update:	3.6460e-04
+Param 2 update:	-1.3540e-04
+Param 3 update:	4.1382e-04
+Param 4 update:	-3.9895e-04
+Param 5 update:	-1.8428e-04
+Param 6 update:	-4.6176e-04
+Param 7 update:	-3.8901e-04
+Param 8 update:	-6.2195e-04
+Param 9 update:	1.3313e-04
+Param 10 update:	-2.5967e-04
+Param 11 update:	-1.0160e-04
+Param 12 update:	4.2792e-04
+Param 13 update:	1.9445e-04
+Param 14 update:	-5.0737e-04
+Param 15 update:	-1.1770e-04
+Param 16 update:	1.1888e-04
+Param 17 update:	-1.8958e-04
+Param 18 update:	6.0832e-04
+Param 19 update:	-8.4757e-05
+Param 20 update:	-2.6029e-04
+Param 21 update:	-6.4130e-04
+Param 22 update:	2.8957e-04
+Param 23 update:	9.5028e-05
+Param 24 update:	1.9434e-04
+Param 25 update:	-3.3035e-05
+Param 26 update:	8.1438e-04
+Param 27 update:	-2.6294e-05
+Param 28 update:	-2.4637e-04
+Param 29 update:	1.4590e-07
+Param 30 update:	-1.7712e-04
+Param 31 update:	2.5332e-04
+Param 32 update:	1.5369e-04
+Param 33 update:	-3.2114e-04
+Param 34 update:	1.0940e-04
+Param 35 update:	3.3574e-04
+Param 36 update:	-4.4128e-05
+Param 37 update:	2.5242e-05
+Param 38 update:	-3.2365e-04
+Param 39 update:	-1.9402e-04
+Param 40 update:	-4.8437e-04
+Param 41 update:	4.1346e-04
+Param 42 update:	-4.1121e-04
+Param 43 update:	-2.0631e-04
+Param 44 update:	-4.9503e-05
+Param 45 update:	-8.5734e-05
+Param 46 update:	-4.2906e-04
+Param 47 update:	4.3070e-05
+Param 48 update:	-6.9042e-04
+Param 49 update:	-9.0268e-04
+Param 50 update:	1.4489e-04
+Param 51 update:	2.8357e-04
+Param 52 update:	-8.2745e-05
+Param 53 update:	7.8923e-05
+Param 54 update:	-6.2969e-04
+Param 55 update:	-3.9587e-04
+Param 56 update:	-3.5936e-04
+Param 57 update:	2.8019e-04
+Param 58 update:	4.7671e-04
+Param 59 update:	3.3332e-04
+Param 60 update:	-1.1867e-06
+Param 61 update:	2.8057e-04
+Param 62 update:	-2.6972e-05
+Param 63 update:	4.0398e-04
+Param 64 update:	7.8428e-04
+Param 65 update:	1.4620e-04
+Param 66 update:	-3.3467e-04
+Param 67 update:	-2.3525e-04
+Param 68 update:	5.7948e-04
+Param 69 update:	-1.5017e-04
+Param 70 update:	-5.2371e-04
+Param 71 update:	-8.7684e-04
+Param 72 update:	-2.9948e-05
+Param 73 update:	-7.3962e-04
+Parameter update vector magnitude: 3.2293e-03
+Largest magnitude parameter update: 8.1438e-04
+  Execution time = 6.1249e+00
+  </log>
+  <optVariables href="H2O.s003.opt.xml">
+ci_0001 3.152245e+00                 3 1 ON  0
+ci_0002 3.154132e+00                 3 1 ON  1
+ci_0003 -1.205213e-01                3 1 ON  2
+ci_0004 -1.220321e-01                3 1 ON  3
+ci_0005 -1.470567e-01                3 1 ON  4
+ci_0006 -1.597041e-01                3 1 ON  5
+ci_0007 -9.648955e-02                3 1 ON  6
+ci_0008 -9.659271e-02                3 1 ON  7
+ci_0009 -7.802562e-02                3 1 ON  8
+ci_0010 -7.721299e-02                3 1 ON  9
+ci_0011 -5.342643e-02                3 1 ON  10
+ci_0012 -5.505262e-02                3 1 ON  11
+ci_0013 5.851955e-02                 3 1 ON  12
+ci_0014 5.744882e-02                 3 1 ON  13
+ci_0015 5.857089e-02                 3 1 ON  14
+ci_0016 5.739852e-02                 3 1 ON  15
+ci_0017 5.118501e-02                 3 1 ON  16
+ci_0018 5.199178e-02                 3 1 ON  17
+ci_0019 4.933534e-02                 3 1 ON  18
+ci_0020 5.230866e-02                 3 1 ON  19
+ci_0021 -4.502437e-03                3 1 ON  20
+ci_0022 8.630186e-03                 3 1 ON  21
+ci_0023 -4.791092e-02                3 1 ON  22
+ci_0024 -5.137817e-02                3 1 ON  23
+ci_0025 -4.759762e-02                3 1 ON  24
+ci_0026 -4.701621e-02                3 1 ON  25
+ci_0027 -4.765650e-02                3 1 ON  26
+ci_0028 -5.109109e-02                3 1 ON  27
+ci_0029 -4.859720e-02                3 1 ON  28
+ci_0030 -4.825042e-02                3 1 ON  29
+ci_0031 9.135716e-02                 3 1 ON  30
+ci_0032 8.380303e-02                 3 1 ON  31
+ci_0033 4.592267e-02                 3 1 ON  32
+ci_0034 4.520850e-02                 3 1 ON  33
+ci_0035 3.046871e-02                 3 1 ON  34
+ci_0036 2.810964e-02                 3 1 ON  35
+ci_0037 -4.702980e-02                3 1 ON  36
+ci_0038 -4.671783e-02                3 1 ON  37
+ci_0039 -1.086856e-02                3 1 ON  38
+ci_0040 -1.225879e-02                3 1 ON  39
+ci_0041 3.117253e-02                 3 1 ON  40
+ci_0042 3.175685e-02                 3 1 ON  41
+ci_0043 -6.901330e-02                3 1 ON  42
+ci_0044 -8.043487e-02                3 1 ON  43
+ci_0045 3.272132e-02                 3 1 ON  44
+ci_0046 3.161443e-02                 3 1 ON  45
+ci_0047 -8.598533e-03                3 1 ON  46
+ci_0048 -8.739640e-03                3 1 ON  47
+ci_0049 -2.586726e-02                3 1 ON  48
+ci_0050 -2.419541e-02                3 1 ON  49
+ci_0051 -1.364948e-02                3 1 ON  50
+ci_0052 -1.597673e-02                3 1 ON  51
+ci_0053 -2.062860e-02                3 1 ON  52
+ci_0054 -2.020915e-02                3 1 ON  53
+ci_0055 2.792830e-02                 3 1 ON  54
+ci_0056 2.736746e-02                 3 1 ON  55
+ci_0057 2.023039e-02                 3 1 ON  56
+ci_0058 2.124944e-02                 3 1 ON  57
+ci_0059 -1.812944e-02                3 1 ON  58
+ci_0060 -2.089937e-02                3 1 ON  59
+ci_0061 -1.645958e-02                3 1 ON  60
+ci_0062 -1.588212e-02                3 1 ON  61
+ci_0063 -3.788837e-02                3 1 ON  62
+ci_0064 -3.852883e-02                3 1 ON  63
+ci_0065 -2.217568e-02                3 1 ON  64
+ci_0066 -2.280697e-02                3 1 ON  65
+ci_0067 -2.169186e-02                3 1 ON  66
+ci_0068 -2.192625e-02                3 1 ON  67
+ci_0069 2.108066e-02                 3 1 ON  68
+ci_0070 1.933882e-02                 3 1 ON  69
+ci_0071 3.265691e-03                 3 1 ON  70
+ci_0072 4.044038e-03                 3 1 ON  71
+ci_0073 1.851069e-02                 3 1 ON  72
+ci_0074 1.855877e-02                 3 1 ON  73
+  </optVariables>
+   Restore the number of walkers to 1, removing 0 walkers.
+</opt>
+</optimization-report>
+  QMC Execution time = 6.1289e+00 secs
+  Reusing QMCFixedSampleLinearOptimize
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s004 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+
+=========================================================
+  Start VMC
+  File Root H2O.s004 append = no 
+=========================================================
+Using existing walkers 
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=4  my_counter=0
+  time step      = 5.0000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+    Restarting, cummulative properties:
+      energy     = -1.6892e+01
+      variance   = 0.0000e+00
+      r2accepted = 1.0000e-10
+      r2proposed = 1.0000e-10
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Cannot make clones again. Use existing 1 clones
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 4
+    time step          = 0.05
+    reference energy   = -16.8671
+    reference variance = 0.32763
+====================================================
+  Execution time = 3.5445e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s004
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+ w_tot 1.5567e+04
+  VMC Eavg = -1.6906e+01
+  VMC Evar = 3.3941e-01
+  Total weights = 1.992727929e+06
+Energy Average: -1.690629203e+01
+Energy Variance: 3.365162444e-01
+Weight Total: 2.000000000e+06
+VGS Total: 1.992727929e+06
+Energy Standard Deviation: 5.801002021e-01
+Energy Standard Error: 4.101927867e-04
+Using the Generalized Variational Principle as the target function.
+Completed all_reduce() step.
+Completed for loop.
+Target Function Average: 4.079620708e-04
+Norm of gradient vector is: 1.133184151e-02
+got here 7
+After engine_checkConfig
+  Execution time = 2.5612e+00
+  </log>
+</opt>
+<opt stage="main" walkers="15625">
+  <log>
+descent_num: 4
+Value of descent_num: 4
+Number of Parameters: 74
+Descent Number: 4
+Finalization Descent Num (should be zero if not on last section): 4
+Parameter Type step sizes:  TJF_2Body_eta=1.0000e-01 TJF_1Body_eta=1.0000e-013Body_eta1.0000e-04 F_eta=1.0000e-03 CI_eta=1.0000e-02 Orb_eta=1.0000e-03
+Using RMSprop
+Param 0 update:	1.1266e-04
+Param 1 update:	-7.9346e-05
+Param 2 update:	-1.3206e-04
+Param 3 update:	-7.5035e-04
+Param 4 update:	1.8355e-04
+Param 5 update:	-1.7978e-04
+Param 6 update:	-5.7428e-04
+Param 7 update:	-7.5156e-04
+Param 8 update:	1.4460e-04
+Param 9 update:	4.3781e-05
+Param 10 update:	1.0942e-04
+Param 11 update:	-8.8854e-05
+Param 12 update:	-1.9930e-04
+Param 13 update:	-8.7141e-05
+Param 14 update:	2.6824e-05
+Param 15 update:	-3.4510e-04
+Param 16 update:	-4.5920e-04
+Param 17 update:	-8.1605e-05
+Param 18 update:	5.5951e-04
+Param 19 update:	-1.6266e-04
+Param 20 update:	-2.1173e-04
+Param 21 update:	5.9734e-04
+Param 22 update:	-1.9372e-05
+Param 23 update:	3.4980e-04
+Param 24 update:	-5.4053e-05
+Param 25 update:	1.9823e-04
+Param 26 update:	-8.1643e-04
+Param 27 update:	-4.6444e-04
+Param 28 update:	-2.2174e-05
+Param 29 update:	5.5760e-04
+Param 30 update:	3.7813e-04
+Param 31 update:	8.7224e-04
+Param 32 update:	-4.2595e-04
+Param 33 update:	7.8285e-04
+Param 34 update:	-2.1214e-04
+Param 35 update:	3.8685e-05
+Param 36 update:	-1.9537e-04
+Param 37 update:	2.8105e-04
+Param 38 update:	-1.0195e-03
+Param 39 update:	5.0731e-04
+Param 40 update:	-2.5258e-04
+Param 41 update:	4.5610e-04
+Param 42 update:	-2.9917e-04
+Param 43 update:	-2.3500e-04
+Param 44 update:	2.3394e-04
+Param 45 update:	4.9881e-04
+Param 46 update:	8.7827e-04
+Param 47 update:	5.6634e-04
+Param 48 update:	4.0881e-04
+Param 49 update:	3.8755e-04
+Param 50 update:	-9.9197e-04
+Param 51 update:	-9.0124e-05
+Param 52 update:	4.8981e-04
+Param 53 update:	-8.2040e-05
+Param 54 update:	7.2300e-05
+Param 55 update:	1.2930e-03
+Param 56 update:	-5.6756e-04
+Param 57 update:	-5.5907e-04
+Param 58 update:	-1.3894e-04
+Param 59 update:	-8.9858e-04
+Param 60 update:	-4.4981e-05
+Param 61 update:	-3.9585e-05
+Param 62 update:	-3.3320e-04
+Param 63 update:	-2.9916e-04
+Param 64 update:	3.6834e-04
+Param 65 update:	4.3036e-05
+Param 66 update:	8.8033e-05
+Param 67 update:	3.1364e-04
+Param 68 update:	-1.2152e-04
+Param 69 update:	-3.2406e-04
+Param 70 update:	5.8919e-04
+Param 71 update:	7.0645e-04
+Param 72 update:	1.2668e-04
+Param 73 update:	7.4898e-04
+Parameter update vector magnitude: 3.9678e-03
+Largest magnitude parameter update: 1.2930e-03
+  Execution time = 6.1066e+00
+  </log>
+  <optVariables href="H2O.s004.opt.xml">
+ci_0001 3.152358e+00                 3 1 ON  0
+ci_0002 3.154053e+00                 3 1 ON  1
+ci_0003 -1.206534e-01                3 1 ON  2
+ci_0004 -1.227825e-01                3 1 ON  3
+ci_0005 -1.468731e-01                3 1 ON  4
+ci_0006 -1.598839e-01                3 1 ON  5
+ci_0007 -9.706383e-02                3 1 ON  6
+ci_0008 -9.734427e-02                3 1 ON  7
+ci_0009 -7.788101e-02                3 1 ON  8
+ci_0010 -7.716920e-02                3 1 ON  9
+ci_0011 -5.331702e-02                3 1 ON  10
+ci_0012 -5.514148e-02                3 1 ON  11
+ci_0013 5.832024e-02                 3 1 ON  12
+ci_0014 5.736168e-02                 3 1 ON  13
+ci_0015 5.859771e-02                 3 1 ON  14
+ci_0016 5.705342e-02                 3 1 ON  15
+ci_0017 5.072581e-02                 3 1 ON  16
+ci_0018 5.191018e-02                 3 1 ON  17
+ci_0019 4.989485e-02                 3 1 ON  18
+ci_0020 5.214600e-02                 3 1 ON  19
+ci_0021 -4.714171e-03                3 1 ON  20
+ci_0022 9.227530e-03                 3 1 ON  21
+ci_0023 -4.793029e-02                3 1 ON  22
+ci_0024 -5.102837e-02                3 1 ON  23
+ci_0025 -4.765167e-02                3 1 ON  24
+ci_0026 -4.681798e-02                3 1 ON  25
+ci_0027 -4.847293e-02                3 1 ON  26
+ci_0028 -5.155553e-02                3 1 ON  27
+ci_0029 -4.861938e-02                3 1 ON  28
+ci_0030 -4.769282e-02                3 1 ON  29
+ci_0031 9.173528e-02                 3 1 ON  30
+ci_0032 8.467526e-02                 3 1 ON  31
+ci_0033 4.549671e-02                 3 1 ON  32
+ci_0034 4.599135e-02                 3 1 ON  33
+ci_0035 3.025658e-02                 3 1 ON  34
+ci_0036 2.814832e-02                 3 1 ON  35
+ci_0037 -4.722517e-02                3 1 ON  36
+ci_0038 -4.643678e-02                3 1 ON  37
+ci_0039 -1.188810e-02                3 1 ON  38
+ci_0040 -1.175147e-02                3 1 ON  39
+ci_0041 3.091995e-02                 3 1 ON  40
+ci_0042 3.221295e-02                 3 1 ON  41
+ci_0043 -6.931247e-02                3 1 ON  42
+ci_0044 -8.066986e-02                3 1 ON  43
+ci_0045 3.295525e-02                 3 1 ON  44
+ci_0046 3.211325e-02                 3 1 ON  45
+ci_0047 -7.720262e-03                3 1 ON  46
+ci_0048 -8.173304e-03                3 1 ON  47
+ci_0049 -2.545845e-02                3 1 ON  48
+ci_0050 -2.380785e-02                3 1 ON  49
+ci_0051 -1.464145e-02                3 1 ON  50
+ci_0052 -1.606686e-02                3 1 ON  51
+ci_0053 -2.013880e-02                3 1 ON  52
+ci_0054 -2.029119e-02                3 1 ON  53
+ci_0055 2.800060e-02                 3 1 ON  54
+ci_0056 2.866051e-02                 3 1 ON  55
+ci_0057 1.966284e-02                 3 1 ON  56
+ci_0058 2.069037e-02                 3 1 ON  57
+ci_0059 -1.826838e-02                3 1 ON  58
+ci_0060 -2.179795e-02                3 1 ON  59
+ci_0061 -1.650456e-02                3 1 ON  60
+ci_0062 -1.592170e-02                3 1 ON  61
+ci_0063 -3.822158e-02                3 1 ON  62
+ci_0064 -3.882799e-02                3 1 ON  63
+ci_0065 -2.180733e-02                3 1 ON  64
+ci_0066 -2.276394e-02                3 1 ON  65
+ci_0067 -2.160382e-02                3 1 ON  66
+ci_0068 -2.161261e-02                3 1 ON  67
+ci_0069 2.095914e-02                 3 1 ON  68
+ci_0070 1.901476e-02                 3 1 ON  69
+ci_0071 3.854883e-03                 3 1 ON  70
+ci_0072 4.750490e-03                 3 1 ON  71
+ci_0073 1.863737e-02                 3 1 ON  72
+ci_0074 1.930775e-02                 3 1 ON  73
+  </optVariables>
+   Restore the number of walkers to 1, removing 0 walkers.
+</opt>
+</optimization-report>
+  QMC Execution time = 6.1109e+00 secs
+  Reusing QMCFixedSampleLinearOptimize
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+
+=========================================================
+  Start QMCFixedSampleLinearOptimize
+  File Root H2O.s005 append = no 
+=========================================================
+  Skip QMCDriver::putQMCInfo 
+  Resetting Properties of the walkers 1 x 15
+Omega from input file: 0.0000e+00
+Current collection step: 70
+On descent finalization, have collect_count as true
+Target: generalized variational principle
+
+=========================================================
+  Start VMC
+  File Root H2O.s005 append = no 
+=========================================================
+Using existing walkers 
+  Resetting Properties of the walkers 1 x 15
+
+<vmc function="put">
+  qmc_counter=5  my_counter=0
+  time step      = 5.0000e-02
+  blocks         = 125
+  steps          = 125
+  substeps       = 1
+  current        = 0
+  target samples = 2.0000e+06
+  walkers/mpi    = 1
+
+  stepsbetweensamples = 1
+<parameter name="blocks" condition="int">125</parameter>
+<parameter name="blocks_between_recompute" condition="int">0</parameter>
+<parameter name="check_properties" condition="int">100</parameter>
+<parameter name="checkproperties" condition="int">100</parameter>
+<parameter name="current" condition="int">0</parameter>
+<parameter name="dmcwalkersperthread" condition="real">1.5625e+04</parameter>
+<parameter name="fermionicweight" condition="real">1.0000e-04</parameter>
+<parameter name="jastrowweight" condition="real">0.0000e+00</parameter>
+<parameter name="maxcpusecs" condition="real">3.6000e+05</parameter>
+<parameter name="mg_beta" condition="real">0.0000e+00</parameter>
+<parameter name="mg_gamma" condition="real">0.0000e+00</parameter>
+<parameter name="modifiedguiding" condition="string">ParameterDerivativeAdjusted</parameter>
+<parameter name="orboptweight" condition="real">0.0000e+00</parameter>
+<parameter name="record_configs" condition="int">0</parameter>
+<parameter name="record_walkers" condition="int">1</parameter>
+<parameter name="recordconfigs" condition="int">0</parameter>
+<parameter name="recordwalkers" condition="int">1</parameter>
+<parameter name="rewind" condition="int">0</parameter>
+<parameter name="samples" condition="real">2.0000e+06</parameter>
+<parameter name="samplesperthread" condition="real">1.5625e+04</parameter>
+<parameter name="steps" condition="int">125</parameter>
+<parameter name="stepsbetweensamples" condition="int">1</parameter>
+<parameter name="store_configs" condition="int">0</parameter>
+<parameter name="storeconfigs" condition="int">0</parameter>
+<parameter name="sub_steps" condition="int">1</parameter>
+<parameter name="substeps" condition="int">1</parameter>
+<parameter name="tau" condition="au">5.0000e-02</parameter>
+<parameter name="time_step" condition="au">5.0000e-02</parameter>
+<parameter name="timestep" condition="au">5.0000e-02</parameter>
+<parameter name="use_drift" condition="string">no</parameter>
+<parameter name="usedrift" condition="string">no</parameter>
+<parameter name="walkers" condition="int">1</parameter>
+<parameter name="warmup_steps" condition="int">1000</parameter>
+<parameter name="warmupsteps" condition="int">1000</parameter>
+  DumpConfig==false Nothing (configurations, state) will be saved.
+  Walker Samples are dumped every 1 steps.
+</vmc>
+    Restarting, cummulative properties:
+      energy     = -1.6887e+01
+      variance   = 0.0000e+00
+      r2accepted = 1.0000e-10
+      r2proposed = 1.0000e-10
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+ Using QMCCostFunction::QMCCostFunction
+   Going to include the derivatives of NonLocalECP
+ Using Default Cost Function: Cost = <|E-E_ff|^2>
+  Set drift_modifier UNR parameter a = 1.0000e+00
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+  EstimatorManagerBase::add replace LocalEnergy estimator.
+entering engine_start function
+<optimization-report>
+<vmc stage="main" blocks="125">
+  Cannot make clones again. Use existing 1 clones
+  Initial partition of walkers 0 1 
+Using ParameterDeriv Adjusted Guiding Function
+
+  Using Particle by Particle moves
+  Walker moves without drift
+  Total Sample Size   =2000000
+  Walker distribution on root = 0 1 
+  Using Locality Approximation
+  Anonymous Buffer size per walker : 17096 Bytes.
+MEMORY increase 0 MB VMC::resetRun
+====================================================
+  SimpleFixedNodeBranch::finalize after a VMC block
+    QMC counter        = 5
+    time step          = 0.05
+    reference energy   = -16.9489
+    reference variance = 0.302692
+====================================================
+  Execution time = 3.6618e+00
+</vmc>
+<opt stage="setup">
+  <log>
+     Reading configurations from h5FileRoot H2O.s005
+  QMCCostFunction is created with 1 threads.
+  Using Nonlocal PP in Opt: NonLocalECP
+   Number of samples loaded to each thread : 15625 
+Value of Filter Bool: false before_first_block_sample: true onDescentStep: true
+Before engine_checkConfigurations
+Double check filter inside engine_checkConfig: false
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[21474,0],0] on node n0193.savio3
+  Remote daemon: [[21474,0],3] on node n0252.savio3
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
