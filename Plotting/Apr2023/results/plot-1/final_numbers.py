@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import statistics
 from matplotlib.ticker import ScalarFormatter
+from matplotlib.ticker import FormatStrFormatter
 from matplotlib.ticker import (MultipleLocator, AutoMinorLocator)
 
 all_h2ogs_files = os.listdir('h2ogs')
@@ -461,11 +462,13 @@ def plot_avgN_finals(all_energies, N=20, ax=None, title=None, need_legend=False,
         need_legend = True
     markers_list = ['o', 'X', 's', 'p', '*', 'D', 'v', '1', 'P', '6']
     ax.set_title(title)
+    y_vals = []
     #plt.figure("Energies, avg10")
     # compiled_file_list = []
     for i, method_energies in enumerate(all_energies):
         avg_N = np.average(all_energies[i][-1][-N:])
         err_N = np.std(all_energies[i][-1][-N:]) / np.sqrt(N)
+        y_vals.append(avg_N)
         #plt.plot([j], avg_10, marker=markers_list[i], label=file, color=color_list[i])
         if need_legend:
             ax.errorbar([i], avg_N, yerr=err_N, capsize=5.0, marker=markers_list[i], label=name_list[i], color=color_list[i])
@@ -476,25 +479,30 @@ def plot_avgN_finals(all_energies, N=20, ax=None, title=None, need_legend=False,
         else:
             ax.errorbar([i], avg_N, yerr=err_N, capsize=5.0, marker=markers_list[i], color=color_list[i])
     ax.set(xlabel="Method", ylabel="Energy (Ha)")
+    if (max(y_vals) - min(y_vals)) < 0.002:
+       y_avg = round(np.average(y_vals),3)
+       ax.set_ylim(y_avg - 0.0015, y_avg + 0.0015)
+       ax.set_yticks([y_avg - 0.001, y_avg, y_avg + 0.001])
     ax.yaxis.get_major_formatter().set_useOffset(False)
+    ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
     if p2p:
+        x = np.array([0])
+        ax.set_xticks(x)
+        my_xticks = [name_list[2]]
+        ax.set_xticklabels(my_xticks)
+        ax.set_xlim(-0.5, 0.5)
+    elif n2p or h2o1b1:
         x = np.array([0,1])
         ax.set_xticks(x)
-        my_xticks = [name_list[2], name_list[3]]
+        my_xticks = [name_list[1], name_list[2]]
         ax.set_xticklabels(my_xticks)
         ax.set_xlim(-0.5, 1.5)
-    elif n2p or h2o1b1:
+    else:
         x = np.array([0,1,2])
         ax.set_xticks(x)
-        my_xticks = [name_list[1], name_list[2], name_list[3]]
+        my_xticks = [name_list[0], name_list[1], name_list[2]]
         ax.set_xticklabels(my_xticks)
         ax.set_xlim(-0.5, 2.5)
-    else:
-        x = np.array([0,1,2,3])
-        ax.set_xticks(x)
-        my_xticks = name_list
-        ax.set_xticklabels(my_xticks)
-        ax.set_xlim(-0.5, 3.5)
     # plt.ylabel("Energy (Ha)")
     # if need_legend:
     #     plt.legend(loc='upper right', bbox_to_anchor=(.95, 1.0))
@@ -585,12 +593,12 @@ def multiplot_avgN_differences_finals(multi_all_energies, units='Ha'):
     markers_list = ['o', 's', 'v', 'D', '*', 'P', 'p', 'v', '1', 'P', '6']
     fig, (ax_list) = plt.subplots(nrows=1, ncols=3, sharex=False)
     flat_ax_list = ax_list.flatten()
-    fig.suptitle('Energy Differences', fontsize=16)
+    # fig.suptitle('Energy Differences', fontsize=16)
     # Plot Form N2Pi*
     N = 20
     ax = flat_ax_list[0]
     ax.set_title('Formaldehyde N to Pi*')
-    name_list = ['LM', 'GVP', 'Variance']
+    name_list = ['LM', 'GVP']
     for i in range(len(formn2p_energies)):
         formgs_avg_N = np.average(formgs_energies[i][-1][-N:])
         formgs_err_N = np.std(formgs_energies[i][-1][-N:]) / np.sqrt(N)
@@ -607,16 +615,20 @@ def multiplot_avgN_differences_finals(multi_all_energies, units='Ha'):
     else:
         ax.set(xlabel="Method", ylabel="Energy (Ha)")
     ax.yaxis.get_major_formatter().set_useOffset(False)
-    x = np.array([0,1,2])
+    ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
+    x = np.array([0,1])
     ax.set_xticks(x)
     my_xticks = name_list
     ax.set_xticklabels(my_xticks)
-    ax.set_xlim(-0.5, 2.5)
+    ax.set_xlim(-0.5, 1.5)
+    if units != 'eV':
+        ax.set_ylim(0.1538, 0.1562)
+        ax.set_yticks([0.154, 0.155, 0.156])
     # Plot Form Pi2Pi*
     N = 20
     ax = flat_ax_list[1]
     ax.set_title('Formaldehyde Pi to Pi*')
-    name_list = ['GVP', 'Variance']
+    name_list = ['GVP']
     for i in range(len(formp2p_energies)):
         formgs_avg_N = np.average(formgs_energies[i+2][-1][-N:])
         formgs_err_N = np.std(formgs_energies[i+2][-1][-N:]) / np.sqrt(N)
@@ -630,16 +642,22 @@ def multiplot_avgN_differences_finals(multi_all_energies, units='Ha'):
         ax.errorbar([i], formp2p_diff_avg_N, yerr=formp2p_diff_err_N, capsize=5.0, marker=markers_list[i+2], color=color_list[i+2])
     ax.set(xlabel="Method")
     ax.yaxis.get_major_formatter().set_useOffset(False)
-    x = np.array([0,1])
+    ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
+    x = np.array([0])
     ax.set_xticks(x)
     my_xticks = name_list
     ax.set_xticklabels(my_xticks)
-    ax.set_xlim(-0.5, 1.5)
+    ax.set_xlim(-0.5, 0.5)
+    if units == 'eV':
+        ax.set_ylim(10.564, 10.58)
+    else:
+        ax.set_ylim(0.3878, 0.3892)
+        ax.set_yticks([0.388, 0.389])
     # Plot H2O 1B1
     N = 20
     ax = flat_ax_list[2]
     ax.set_title('H2O 1B1')
-    name_list = ['LM', 'GVP', 'Variance']
+    name_list = ['LM', 'GVP']
     for i in range(len(h2o1b1_energies)):
         h2ogs_avg_N = np.average(h2ogs_energies[i+1][-1][-N:])
         h2ogs_err_N = np.std(h2ogs_energies[i+1][-1][-N:]) / np.sqrt(N)
@@ -653,11 +671,15 @@ def multiplot_avgN_differences_finals(multi_all_energies, units='Ha'):
         ax.errorbar([i], h2o1b1_diff_avg_N, yerr=h2o1b1_diff_err_N, capsize=5.0, marker=markers_list[i+1], color=color_list[i+1])
     ax.set(xlabel="Method")
     ax.yaxis.get_major_formatter().set_useOffset(False)
-    x = np.array([0,1,2])
+    ax.yaxis.set_major_formatter(FormatStrFormatter('%.3f'))
+    x = np.array([0,1])
     ax.set_xticks(x)
     my_xticks = name_list
     ax.set_xticklabels(my_xticks)
-    ax.set_xlim(-0.5, 2.5)
+    ax.set_xlim(-0.5, 1.5)
+    if units != 'eV':
+        ax.set_ylim(0.3098, 0.3112)
+        ax.set_yticks([0.310, 0.311])
 
     plt.subplots_adjust(wspace=0.4, hspace=0.35, top=0.8, bottom=0.2)
     #fig.legend(loc='lower right', bbox_to_anchor=(.95, 1.0))
@@ -836,10 +858,13 @@ def main():
     # H2O GS #
     ##########
     # Read the files
+    # h2ogs_files = [edesc_h2ogs_filenames, 
+    #                lm_h2ogs_filenames,
+    #                gvp_h2ogs_filenames, 
+    #                te_h2ogs_filenames]
     h2ogs_files = [edesc_h2ogs_filenames, 
                    lm_h2ogs_filenames,
-                   gvp_h2ogs_filenames, 
-                   te_h2ogs_filenames]
+                   gvp_h2ogs_filenames]
     target_state_used_list = [False, False, False, True]
     for (i, state_files) in enumerate(h2ogs_files):
         read_files(state_files, h2ogs_energies, h2ogs_variances, h2ogs_uncertainties_of_variances, h2ogs_standard_deviations, h2ogs_standard_errors, h2ogs_target_functions, h2ogs_target_fn_standard_errors, h2ogs_grad_norms, h2ogs_all_iters_lderivs, h2ogs_param_update_sizes, h2ogs_largest_param_updates, h2ogs_qmc_timing, h2ogs_total_timing, target_state_used=target_state_used_list[i])
@@ -858,8 +883,7 @@ def main():
     #                gvp_1b1_filenames, 
     #                te_1b1_filenames]
     h2o1b1_files = [lm_1b1_filenames,
-                   gvp_1b1_filenames, 
-                   te_1b1_filenames]
+                    gvp_1b1_filenames]
     for state_files in h2o1b1_files:
         read_files(state_files, h2o1b1_energies, h2o1b1_variances, h2o1b1_uncertainties_of_variances, h2o1b1_standard_deviations, h2o1b1_standard_errors, h2o1b1_target_functions, h2o1b1_target_fn_standard_errors, h2o1b1_grad_norms, h2o1b1_all_iters_lderivs, h2o1b1_param_update_sizes, h2o1b1_largest_param_updates, h2o1b1_qmc_timing, h2o1b1_total_timing)
 
@@ -872,10 +896,13 @@ def main():
     # FORM GS #
     ##########
     # Read the files to get data
+    # formgs_files = [edesc_formgs_filenames, 
+    #                 lm_formgs_filenames,
+    #                 gvp_formgs_filenames, 
+    #                 te_formgs_filenames]
     formgs_files = [edesc_formgs_filenames, 
                     lm_formgs_filenames,
-                    gvp_formgs_filenames, 
-                    te_formgs_filenames]
+                    gvp_formgs_filenames]
     for state_files in formgs_files:
         read_files(state_files, formgs_energies, formgs_variances, formgs_uncertainties_of_variances, formgs_standard_deviations, formgs_standard_errors, formgs_target_functions, formgs_target_fn_standard_errors, formgs_grad_norms, formgs_all_iters_lderivs, formgs_param_update_sizes, formgs_largest_param_updates, formgs_qmc_timing, formgs_total_timing)
 
@@ -893,8 +920,7 @@ def main():
     #                       gvp_formn2pistar_filenames, 
     #                       te_formn2pistar_filenames]
     formn2pistar_files = [lm_formn2pistar_filenames,
-                          gvp_formn2pistar_filenames, 
-                          te_formn2pistar_filenames]
+                          gvp_formn2pistar_filenames]
     for state_files in formn2pistar_files:
         read_files(state_files, formn2p_energies, formn2p_variances, formn2p_uncertainties_of_variances, formn2p_standard_deviations, formn2p_standard_errors, formn2p_target_functions, formn2p_target_fn_standard_errors, formn2p_grad_norms, formn2p_all_iters_lderivs, formn2p_param_update_sizes, formn2p_largest_param_updates, formn2p_qmc_timing, formn2p_total_timing)
 
@@ -907,8 +933,9 @@ def main():
     # FORM PI2PISTAR #
     #################
     # Read the files to get data
-    formp2pistar_files = [gvp_formpi2pistar_filenames, 
-                          te_formpi2pistar_filenames]
+    # formp2pistar_files = [gvp_formpi2pistar_filenames, 
+    #                       te_formpi2pistar_filenames]
+    formp2pistar_files = [gvp_formpi2pistar_filenames]
     for state_files in formp2pistar_files:
         read_files(state_files, formp2p_energies, formp2p_variances, formp2p_uncertainties_of_variances, formp2p_standard_deviations, formp2p_standard_errors, formp2p_target_functions, formp2p_target_fn_standard_errors, formp2p_grad_norms, formp2p_all_iters_lderivs, formp2p_param_update_sizes, formp2p_largest_param_updates, formp2p_qmc_timing, formp2p_total_timing)
     

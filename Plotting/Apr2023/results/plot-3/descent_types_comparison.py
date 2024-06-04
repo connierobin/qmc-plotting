@@ -336,6 +336,8 @@ def plot_subplot_data(vector_data, data_label, data_color, jfirst, ax=None, errb
     current_x = 0
     plotting_jastrows = jfirst
     first = True
+    first_jastrow_plotting = True
+    first_ci_plotting = True
     for (i, data) in enumerate(vector_data):
         if has_jastrows == False:
             plotting_jastrows = False
@@ -354,18 +356,34 @@ def plot_subplot_data(vector_data, data_label, data_color, jfirst, ax=None, errb
             current_x = current_x + 1
         if first:
             if plotting_jastrows:
-                ax.errorbar(x, data, yerr=cur_errbars, marker='x', label=data_label, color=data_color)
+                this_label = 'Jastrow optimization steps' if (data_label is not None) else None
+                ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=this_label, color=color_list[1])
+                # ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=data_label, color=data_color)
                 plotting_jastrows = not plotting_jastrows
+                first_jastrow_plotting = False
             else:
-                ax.errorbar(x, data, yerr=cur_errbars, marker='o', label=data_label, color=data_color)
+                this_label = 'CI optimization steps' if data_label is not None else None
+                ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=this_label, color=data_color)
+                # ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=data_label, color=data_color)
                 plotting_jastrows = not plotting_jastrows
+                first_ci_plotting = False
             first = False
         else:
             if plotting_jastrows:
-                ax.errorbar(x, data, yerr=cur_errbars, marker='x', color=data_color)
+                if first_jastrow_plotting:
+                    this_label = 'Jastrow optimization steps' if data_label is not None else None
+                    ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=this_label, color=color_list[1])
+                    first_jastrow_plotting = False
+                else:
+                    ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, color=color_list[1])
                 plotting_jastrows = not plotting_jastrows
             else:
-                ax.errorbar(x, data, yerr=cur_errbars, marker='o', color=data_color)
+                if first_ci_plotting:
+                    this_label = 'CI optimization steps' if data_label is not None else None
+                    ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, label=this_label, color=data_color)
+                    first_ci_plotting = False
+                else:
+                    ax.errorbar(x, data, yerr=cur_errbars, marker='o', linestyle='None', ms=2, color=data_color)
                 plotting_jastrows = not plotting_jastrows
         ax.set_title(subplot_title)
     # Plot a line showing the final result, if desired
@@ -707,7 +725,7 @@ def main():
 
     # Variables to tweak the plotting
     energy_shrink_amount = 20
-    energyj_shrink_amount = 20
+    energyj_shrink_amount = 10
     targetfn_shrink_amount = 20
     targetfnj_shrink_amount = 20
     variance_shrink_amount = 20
@@ -721,6 +739,7 @@ def main():
     # Read the files
     #h2ogs_files = [gvp_h2ogs_filenames, gvp_h2ogs_split_filenames, gvp_h2ogs_splitabs_filenames, edesc_h2ogs_filenames]
     h2ogs_files = [gvp_h2ogs_filenames, lm_h2ogs_filenames, edesc_h2ogs_filenames]
+    h2ogs_files = [gvp_h2ogs_filenames]
     for state_files in h2ogs_files:
         read_files(state_files, h2ogs_energies, h2ogs_variances, h2ogs_uncertainties_of_variances, h2ogs_standard_deviations, h2ogs_standard_errors, h2ogs_target_functions, h2ogs_target_fn_standard_errors, h2ogs_grad_norms, h2ogs_all_iters_lderivs, h2ogs_param_update_sizes, h2ogs_largest_param_updates, h2ogs_qmc_timing, h2ogs_total_timing)
 
@@ -741,6 +760,7 @@ def main():
     # Read the files to get data
     #h2o1b1_files = [gvp_1b1_filenames, gvp_1b1_split_filenames, gvp_1b1_splitabs_filenames, edesc_1b1_filenames]
     h2o1b1_files = [gvp_1b1_filenames, lm_1b1_filenames]
+    h2o1b1_files = [gvp_1b1_filenames]
     for state_files in h2o1b1_files:
         read_files(state_files, h2o1b1_energies, h2o1b1_variances, h2o1b1_uncertainties_of_variances, h2o1b1_standard_deviations, h2o1b1_standard_errors, h2o1b1_target_functions, h2o1b1_target_fn_standard_errors, h2o1b1_grad_norms, h2o1b1_all_iters_lderivs, h2o1b1_param_update_sizes, h2o1b1_largest_param_updates, h2o1b1_qmc_timing, h2o1b1_total_timing)
     
@@ -751,9 +771,9 @@ def main():
 
     # # Plot the data
     # plot_avgN(h2o1b1_files, h2o1b1_energies, N1=100, N2=10, labels=plot_name_list)
-    # plot_energies(shrunk_h2o1b1_energies, errbars=shrunk_h2o1b1_err, fig_title='H2O 1B1 State', plot_name_list=plot_name_list)
+    plot_energies(shrunk_h2o1b1_energies, errbars=shrunk_h2o1b1_err, fig_title='H2O 1B1 State', plot_name_list=plot_name_list)
     # # plot_target_functions(shrunk_h2o1b1_targetfn, errbars=shrunk_h2o1b1_target_err, fig_title='H2O 1B1 State', plot_name_list=plot_name_list)
-    # plt.show()
+    plt.show()
 
     ##########
     # FORM GS #
@@ -761,6 +781,7 @@ def main():
     # Read the files to get data
     # formgs_files = [gvp_formgs_filenames, gvp_formgs_split_filenames, gvp_formgs_splitabs_filenames, edesc_formgs_filenames]
     formgs_files = [gvp_formgs_filenames, lm_formgs_filenames, edesc_formgs_filenames]
+    formgs_files = [gvp_formgs_filenames]
     for state_files in formgs_files:
         read_files(state_files, formgs_energies, formgs_variances, formgs_uncertainties_of_variances, formgs_standard_deviations, formgs_standard_errors, formgs_target_functions, formgs_target_fn_standard_errors, formgs_grad_norms, formgs_all_iters_lderivs, formgs_param_update_sizes, formgs_largest_param_updates, formgs_qmc_timing, formgs_total_timing)
     
@@ -781,6 +802,7 @@ def main():
     # Read the files to get data
     #formn2pistar_files = [gvp_formn2pistar_filenames, gvp_formn2pistar_split_filenames, gvp_formn2pistar_splitabs_filenames, edesc_formn2pistar_filenames]
     formn2pistar_files = [gvp_formn2pistar_filenames, lm_formn2pistar_filenames]
+    formn2pistar_files = [gvp_formn2pistar_filenames]
     for state_files in formn2pistar_files:
         read_files(state_files, formn2p_energies, formn2p_variances, formn2p_uncertainties_of_variances, formn2p_standard_deviations, formn2p_standard_errors, formn2p_target_functions, formn2p_target_fn_standard_errors, formn2p_grad_norms, formn2p_all_iters_lderivs, formn2p_param_update_sizes, formn2p_largest_param_updates, formn2p_qmc_timing, formn2p_total_timing)
     
@@ -791,9 +813,9 @@ def main():
 
     # # Plot the data
     # plot_avgN(formn2pistar_files, formn2p_energies, N1=100, N2=10, labels=plot_name_list)
-    # plot_energies(shrunk_formn2p_energies, errbars=shrunk_formn2p_err, fig_title='Formaldehyde N to Pi* State', plot_name_list=plot_name_list)
+    plot_energies(shrunk_formn2p_energies, errbars=shrunk_formn2p_err, fig_title='Formaldehyde N to Pi* State', plot_name_list=plot_name_list)
     # # plot_target_functions(shrunk_formn2p_targetfn, errbars=shrunk_formn2p_target_err, fig_title='Formaldehyde N to Pi* State', plot_name_list=plot_name_list)
-    # plt.show()
+    plt.show()
 
     ##################
     # FORM PI2PISTAR #
@@ -811,9 +833,9 @@ def main():
 
     # # Plot the data
     # plot_avgN(formp2pistar_files, formp2p_energies, N1=100, N2=10, title="Formaldehyde Pi to Pi* State", labels=plot_name_list)
-    # plot_energies(shrunk_formp2p_energies, errbars=shrunk_formp2p_err, fig_title='Formaldehyde Pi to Pi* State', plot_name_list=plot_name_list)
+    plot_energies(shrunk_formp2p_energies, errbars=shrunk_formp2p_err, fig_title='Formaldehyde Pi to Pi* State', plot_name_list=plot_name_list)
     # # plot_target_functions(shrunk_formp2p_targetfn, errbars=shrunk_formp2p_target_err, fig_title='Formaldehyde Pi to Pi* State', plot_name_list=plot_name_list)
-    # plt.show()
+    plt.show()
 
     ###########
     # CI ONLY #
@@ -859,10 +881,12 @@ def main():
 
     # Energies
     multi_all_energies = [shrunk_formgs_energies, shrunk_formn2p_energies, shrunk_formp2p_energies, shrunk_h2ogs_energies, shrunk_h2o1b1_energies]
+    multi_es_energies = [shrunk_formn2p_energies, shrunk_formp2p_energies, shrunk_h2o1b1_energies]
     multi_all_energy_errs = [shrunk_formgs_err, shrunk_formn2p_err, shrunk_formp2p_err, shrunk_h2ogs_err, shrunk_h2o1b1_err]
     cut_iters(multi_all_energies, max_iter)
     cut_iters(multi_all_energy_errs, max_iter)
     multiplot(multi_all_energies, 2, 3, avgN=1, multi_errbars=multi_all_energy_errs, fig_title="Energies", plot_name_list=plot_name_list, subplot_titles=['Formaldehyde Ground State', 'Formaldehyde N to Pi* State', 'Formaldehyde Pi to Pi* State', 'H2O Ground State', 'H2O 1B1 State'], ylabel="Energy (Ha)", xlabel="Macroiterations")
+    multiplot(multi_es_energies, 1, 3, avgN=1, multi_errbars=multi_all_energy_errs, fig_title="Energies", plot_name_list=plot_name_list, subplot_titles=['Formaldehyde N to Pi* State', 'Formaldehyde Pi to Pi* State', 'H2O 1B1 State'], ylabel="Energy (Ha)", xlabel="Macroiterations")
     # plt.show()
 
     # Energies
